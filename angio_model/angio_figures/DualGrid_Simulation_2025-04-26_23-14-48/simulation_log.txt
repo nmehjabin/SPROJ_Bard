@@ -1,0 +1,39 @@
+Simulation started at: 2025-04-26 23:14:48
+Grid size: (50, 50)
+Initial tip positions: [(15, 25), (35, 25), (25, 15), (25, 35), (20, 20), (30, 30)]
+Total steps: 200
+
+--- Step 1/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (15, 25), VEGF value: 0.4684
+  Vessel ID 2: position (35, 25), VEGF value: 0.5262
+  Vessel ID 3: position (25, 15), VEGF value: 0.3841
+  Vessel ID 4: position (25, 35), VEGF value: 0.4580
+  Vessel ID 5: position (20, 20), VEGF value: 0.3627
+  Vessel ID 6: position (30, 30), VEGF value: 0.5739
+Growing vasculature...
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(16, 25), (14, 25), (15, 26), (15, 24), (16, 26), (14, 24), (16, 24), (14, 26)]
+Tip (ID: 1) at (15, 25) grew to (16, 25) with VEGF value: 0.6729973154003446
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(36, 25), (34, 25), (35, 26), (35, 24), (36, 26), (34, 24), (36, 24), (34, 26)]
+Tip (ID: 2) at (35, 25) grew to (35, 26) with VEGF value: 0.6414774317473311
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(26, 15), (24, 15), (25, 16), (25, 14), (26, 16), (24, 14), (26, 14), (24, 16)]
+Tip (ID: 3) at (25, 15) grew to (26, 14) with VEGF value: 0.5785347194619208
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(26, 35), (24, 35), (25, 36), (25, 34), (26, 36), (24, 34), (26, 34), (24, 36)]
+Tip (ID: 4) at (25, 35) grew to (26, 34) with VEGF value: 0.5497687192422851
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(21, 20), (19, 20), (20, 21), (20, 19), (21, 21), (19, 19), (21, 19), (19, 21)]
+Tip (ID: 5) at (20, 20) grew to (21, 21) with VEGF value: 0.5541218530629102
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(31, 30), (29, 30), (30, 31), (30, 29), (31, 31), (29, 29), (31, 29), (29, 31)]
+Tip (ID: 6) at (30, 30) grew to (30, 31) with VEGF value: 0.6247358124043527
+Tip positions after growth:
+  Vessel ID 1: position (16, 25), VEGF value: 0.6393
+  Vessel ID 2: position (35, 26), VEGF value: 0.6094
+  Vessel ID 3: position (26, 14), VEGF value: 0.5496
+  Vessel ID 4: position (26, 34), VEGF value: 0.5223
+  Vessel ID 5: position (21, 21), VEGF value: 0.5264
+  Vessel ID 6: position (30, 31), VEGF value: 0.5935

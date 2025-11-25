@@ -1,0 +1,3520 @@
+
+--- Step 1/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (15, 25), VEGF value: 0.7431
+  Vessel ID 2: position (35, 25), VEGF value: 0.2787
+  Vessel ID 3: position (25, 15), VEGF value: 0.2980
+  Vessel ID 4: position (25, 35), VEGF value: 0.7138
+  Vessel ID 5: position (20, 20), VEGF value: 0.0859
+  Vessel ID 6: position (30, 30), VEGF value: 0.3507
+Growing vasculature...
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(16, 25), (14, 25), (15, 26), (15, 24), (16, 26), (14, 24), (16, 24), (14, 26)]
+Tip (ID: 1) at (15, 25) grew to (16, 24) with VEGF value: 0.8991178995543461
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(36, 25), (34, 25), (35, 26), (35, 24), (36, 26), (34, 24), (36, 24), (34, 26)]
+Tip (ID: 2) at (35, 25) grew to (34, 25) with VEGF value: 0.9861979651383478
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(26, 15), (24, 15), (25, 16), (25, 14), (26, 16), (24, 14), (26, 14), (24, 16)]
+Tip (ID: 3) at (25, 15) grew to (25, 14) with VEGF value: 0.8078734857869326
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(26, 35), (24, 35), (25, 36), (25, 34), (26, 36), (24, 34), (26, 34), (24, 36)]
+Tip (ID: 4) at (25, 35) grew to (24, 36) with VEGF value: 0.899236400689362
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(21, 20), (19, 20), (20, 21), (20, 19), (21, 21), (19, 19), (21, 19), (19, 21)]
+Tip (ID: 5) at (20, 20) grew to (21, 19) with VEGF value: 0.7453269863172464
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(31, 30), (29, 30), (30, 31), (30, 29), (31, 31), (29, 29), (31, 29), (29, 31)]
+Tip (ID: 6) at (30, 30) grew to (29, 29) with VEGF value: 0.9329007025221124
+Tip positions after growth:
+  Vessel ID 1: position (16, 24), VEGF value: 0.8542
+  Vessel ID 2: position (34, 25), VEGF value: 0.9369
+  Vessel ID 3: position (25, 14), VEGF value: 0.7675
+  Vessel ID 4: position (24, 36), VEGF value: 0.8543
+  Vessel ID 5: position (21, 19), VEGF value: 0.7081
+  Vessel ID 6: position (29, 29), VEGF value: 0.8863
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_1.png
+
+--- Step 2/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 24), VEGF value: 0.8542
+  Vessel ID 2: position (34, 25), VEGF value: 0.9369
+  Vessel ID 3: position (25, 14), VEGF value: 0.7675
+  Vessel ID 4: position (24, 36), VEGF value: 0.8543
+  Vessel ID 5: position (21, 19), VEGF value: 0.7081
+  Vessel ID 6: position (29, 29), VEGF value: 0.8863
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (16, 24), VEGF value: 0.8542
+  Vessel ID 2: position (34, 25), VEGF value: 0.9369
+  Vessel ID 3: position (25, 14), VEGF value: 0.7675
+  Vessel ID 4: position (24, 36), VEGF value: 0.8543
+  Vessel ID 5: position (21, 19), VEGF value: 0.7081
+  Vessel ID 6: position (29, 29), VEGF value: 0.8863
+
+--- Step 3/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 24), VEGF value: 0.8542
+  Vessel ID 2: position (34, 25), VEGF value: 0.9369
+  Vessel ID 3: position (25, 14), VEGF value: 0.7675
+  Vessel ID 4: position (24, 36), VEGF value: 0.8543
+  Vessel ID 5: position (21, 19), VEGF value: 0.7081
+  Vessel ID 6: position (29, 29), VEGF value: 0.8863
+Growing vasculature...
+Previous position: (15, 25)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(17, 24), (17, 25), (17, 23), (16, 25), (16, 23)]
+Valid neighbors after grid boundary check: [(17, 24), (17, 25), (17, 23), (16, 25), (16, 23)]
+Tip (ID: 1) at (16, 24) grew to (16, 23) with VEGF value: 0.9223289649398277
+Previous position: (35, 25)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(34, 24), (34, 26), (33, 25), (33, 26), (33, 24)]
+Valid neighbors after grid boundary check: [(34, 24), (34, 26), (33, 25), (33, 26), (33, 24)]
+Tip (ID: 2) at (34, 25) grew to (33, 26) with VEGF value: 0.820359794323381
+Previous position: (25, 15)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(25, 13), (26, 13), (26, 14), (24, 14), (24, 13)]
+Valid neighbors after grid boundary check: [(25, 13), (26, 13), (26, 14), (24, 14), (24, 13)]
+Tip (ID: 3) at (25, 14) grew to (25, 13) with VEGF value: 0.9088018581229461
+Previous position: (25, 35)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(24, 37), (25, 37), (23, 36), (23, 37), (23, 35)]
+Valid neighbors after grid boundary check: [(24, 37), (25, 37), (23, 36), (23, 37), (23, 35)]
+Tip (ID: 4) at (24, 36) grew to (23, 36) with VEGF value: 0.8345973825905314
+Previous position: (20, 20)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(22, 19), (22, 20), (22, 18), (21, 20), (21, 18)]
+Valid neighbors after grid boundary check: [(22, 19), (22, 20), (22, 18), (21, 20), (21, 18)]
+Tip (ID: 5) at (21, 19) grew to (22, 18) with VEGF value: 0.5797087296501476
+Previous position: (30, 30)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(29, 30), (29, 28), (28, 29), (28, 30), (28, 28)]
+Valid neighbors after grid boundary check: [(29, 30), (29, 28), (28, 29), (28, 30), (28, 28)]
+Tip (ID: 6) at (29, 29) grew to (29, 30) with VEGF value: 0.8202906684357159
+Tip positions after growth:
+  Vessel ID 1: position (16, 23), VEGF value: 0.8762
+  Vessel ID 2: position (33, 26), VEGF value: 0.7793
+  Vessel ID 3: position (25, 13), VEGF value: 0.8634
+  Vessel ID 4: position (23, 36), VEGF value: 0.7929
+  Vessel ID 5: position (22, 18), VEGF value: 0.5507
+  Vessel ID 6: position (29, 30), VEGF value: 0.7793
+
+--- Step 4/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 23), VEGF value: 0.8762
+  Vessel ID 2: position (33, 26), VEGF value: 0.7793
+  Vessel ID 3: position (25, 13), VEGF value: 0.8634
+  Vessel ID 4: position (23, 36), VEGF value: 0.7929
+  Vessel ID 5: position (22, 18), VEGF value: 0.5507
+  Vessel ID 6: position (29, 30), VEGF value: 0.7793
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (16, 23), VEGF value: 0.8762
+  Vessel ID 2: position (33, 26), VEGF value: 0.7793
+  Vessel ID 3: position (25, 13), VEGF value: 0.8634
+  Vessel ID 4: position (23, 36), VEGF value: 0.7929
+  Vessel ID 5: position (22, 18), VEGF value: 0.5507
+  Vessel ID 6: position (29, 30), VEGF value: 0.7793
+
+--- Step 5/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 23), VEGF value: 0.8762
+  Vessel ID 2: position (33, 26), VEGF value: 0.7793
+  Vessel ID 3: position (25, 13), VEGF value: 0.8634
+  Vessel ID 4: position (23, 36), VEGF value: 0.7929
+  Vessel ID 5: position (22, 18), VEGF value: 0.5507
+  Vessel ID 6: position (29, 30), VEGF value: 0.7793
+Growing vasculature...
+Previous position: (16, 24)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(16, 22), (17, 22), (17, 23), (15, 23), (15, 22)]
+Valid neighbors after grid boundary check: [(16, 22), (17, 22), (17, 23), (15, 23), (15, 22)]
+Tip (ID: 1) at (16, 23) grew to (17, 23) with VEGF value: 0.6800090253030725
+Previous position: (34, 25)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(33, 27), (34, 27), (32, 26), (32, 27), (32, 25)]
+Valid neighbors after grid boundary check: [(33, 27), (34, 27), (32, 26), (32, 27), (32, 25)]
+Tip (ID: 2) at (33, 26) grew to (34, 27) with VEGF value: 0.6945465899917564
+Previous position: (25, 14)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(25, 12), (26, 12), (26, 13), (24, 13), (24, 12)]
+Valid neighbors after grid boundary check: [(25, 12), (26, 12), (26, 13), (24, 13), (24, 12)]
+Tip (ID: 3) at (25, 13) grew to (26, 12) with VEGF value: 0.6206941467120657
+Previous position: (24, 36)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(23, 35), (23, 37), (22, 36), (22, 37), (22, 35)]
+Valid neighbors after grid boundary check: [(23, 35), (23, 37), (22, 36), (22, 37), (22, 35)]
+Tip (ID: 4) at (23, 36) grew to (22, 36) with VEGF value: 0.6428554329244998
+Previous position: (21, 19)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(23, 18), (23, 19), (23, 17), (22, 19), (22, 17)]
+Valid neighbors after grid boundary check: [(23, 18), (23, 19), (23, 17), (22, 19), (22, 17)]
+Tip (ID: 5) at (22, 18) grew to (23, 17) with VEGF value: 0.6294175802157795
+Previous position: (29, 29)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(29, 31), (30, 31), (30, 30), (28, 30), (28, 31)]
+Valid neighbors after grid boundary check: [(29, 31), (30, 31), (28, 30), (28, 31)]
+Tip (ID: 6) at (29, 30) grew to (29, 31) with VEGF value: 0.6939673236779983
+Tip positions after growth:
+  Vessel ID 1: position (17, 23), VEGF value: 0.6460
+  Vessel ID 2: position (34, 27), VEGF value: 0.6598
+  Vessel ID 3: position (26, 12), VEGF value: 0.5897
+  Vessel ID 4: position (22, 36), VEGF value: 0.6107
+  Vessel ID 5: position (23, 17), VEGF value: 0.5979
+  Vessel ID 6: position (29, 31), VEGF value: 0.6593
+
+--- Step 6/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 23), VEGF value: 0.6460
+  Vessel ID 2: position (34, 27), VEGF value: 0.6598
+  Vessel ID 3: position (26, 12), VEGF value: 0.5897
+  Vessel ID 4: position (22, 36), VEGF value: 0.6107
+  Vessel ID 5: position (23, 17), VEGF value: 0.5979
+  Vessel ID 6: position (29, 31), VEGF value: 0.6593
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (17, 23), VEGF value: 0.6460
+  Vessel ID 2: position (34, 27), VEGF value: 0.6598
+  Vessel ID 3: position (26, 12), VEGF value: 0.5897
+  Vessel ID 4: position (22, 36), VEGF value: 0.6107
+  Vessel ID 5: position (23, 17), VEGF value: 0.5979
+  Vessel ID 6: position (29, 31), VEGF value: 0.6593
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_6.png
+
+--- Step 7/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 23), VEGF value: 0.6460
+  Vessel ID 2: position (34, 27), VEGF value: 0.6598
+  Vessel ID 3: position (26, 12), VEGF value: 0.5897
+  Vessel ID 4: position (22, 36), VEGF value: 0.6107
+  Vessel ID 5: position (23, 17), VEGF value: 0.5979
+  Vessel ID 6: position (29, 31), VEGF value: 0.6593
+Growing vasculature...
+Previous position: (16, 23)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(17, 22), (17, 24), (16, 23), (16, 24), (16, 22)]
+Valid neighbors after grid boundary check: [(17, 22), (17, 24), (16, 22)]
+Tip (ID: 1) at (17, 23) grew to (17, 24) with VEGF value: 0.48754261836329676
+Previous position: (33, 26)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(35, 27), (35, 28), (35, 26), (34, 28), (34, 26)]
+Valid neighbors after grid boundary check: [(35, 27), (35, 28), (35, 26), (34, 28), (34, 26)]
+Tip (ID: 2) at (34, 27) grew to (35, 27) with VEGF value: 0.5274117860767612
+Previous position: (25, 13)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(27, 12), (27, 13), (27, 11), (26, 13), (26, 11)]
+Valid neighbors after grid boundary check: [(27, 12), (27, 13), (27, 11), (26, 13), (26, 11)]
+Tip (ID: 3) at (26, 12) grew to (27, 12) with VEGF value: 0.5878370759505073
+Previous position: (23, 36)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(22, 35), (22, 37), (21, 36), (21, 37), (21, 35)]
+Valid neighbors after grid boundary check: [(22, 35), (22, 37), (21, 36), (21, 37), (21, 35)]
+Tip (ID: 4) at (22, 36) grew to (21, 37) with VEGF value: 0.8244975262827705
+Previous position: (22, 18)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(24, 17), (24, 18), (24, 16), (23, 18), (23, 16)]
+Valid neighbors after grid boundary check: [(24, 17), (24, 18), (24, 16), (23, 18), (23, 16)]
+Tip (ID: 5) at (23, 17) grew to (24, 18) with VEGF value: 0.7170375040069024
+Previous position: (29, 30)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(29, 32), (30, 32), (30, 31), (28, 31), (28, 32)]
+Valid neighbors after grid boundary check: [(29, 32), (30, 32), (30, 31), (28, 31), (28, 32)]
+Tip (ID: 6) at (29, 31) grew to (28, 32) with VEGF value: 0.693832769167844
+Tip positions after growth:
+  Vessel ID 1: position (17, 24), VEGF value: 0.4632
+  Vessel ID 2: position (35, 27), VEGF value: 0.5010
+  Vessel ID 3: position (27, 12), VEGF value: 0.5584
+  Vessel ID 4: position (21, 37), VEGF value: 0.7833
+  Vessel ID 5: position (24, 18), VEGF value: 0.6812
+  Vessel ID 6: position (28, 32), VEGF value: 0.6591
+
+--- Step 8/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 24), VEGF value: 0.4632
+  Vessel ID 2: position (35, 27), VEGF value: 0.5010
+  Vessel ID 3: position (27, 12), VEGF value: 0.5584
+  Vessel ID 4: position (21, 37), VEGF value: 0.7833
+  Vessel ID 5: position (24, 18), VEGF value: 0.6812
+  Vessel ID 6: position (28, 32), VEGF value: 0.6591
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (17, 24), VEGF value: 0.4632
+  Vessel ID 2: position (35, 27), VEGF value: 0.5010
+  Vessel ID 3: position (27, 12), VEGF value: 0.5584
+  Vessel ID 4: position (21, 37), VEGF value: 0.7833
+  Vessel ID 5: position (24, 18), VEGF value: 0.6812
+  Vessel ID 6: position (28, 32), VEGF value: 0.6591
+
+--- Step 9/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 24), VEGF value: 0.4632
+  Vessel ID 2: position (35, 27), VEGF value: 0.5010
+  Vessel ID 3: position (27, 12), VEGF value: 0.5584
+  Vessel ID 4: position (21, 37), VEGF value: 0.7833
+  Vessel ID 5: position (24, 18), VEGF value: 0.6812
+  Vessel ID 6: position (28, 32), VEGF value: 0.6591
+Growing vasculature...
+Previous position: (17, 23)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(17, 25), (18, 25), (18, 24), (16, 24), (16, 25)]
+Valid neighbors after grid boundary check: [(17, 25), (18, 25), (18, 24), (16, 25)]
+Tip (ID: 1) at (17, 24) grew to (18, 25) with VEGF value: 0.6234479206433297
+Previous position: (34, 27)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(35, 26), (35, 28), (34, 27), (34, 28), (34, 26)]
+Valid neighbors after grid boundary check: [(35, 26), (35, 28), (34, 28), (34, 26)]
+Tip (ID: 2) at (35, 27) grew to (35, 28) with VEGF value: 0.34546758429474916
+Previous position: (26, 12)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(27, 11), (27, 13), (26, 12), (26, 13), (26, 11)]
+Valid neighbors after grid boundary check: [(27, 11), (27, 13), (26, 13), (26, 11)]
+Tip (ID: 3) at (27, 12) grew to (26, 11) with VEGF value: 0.4184515159174436
+Previous position: (22, 36)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(21, 38), (22, 38), (20, 37), (20, 38), (20, 36)]
+Valid neighbors after grid boundary check: [(21, 38), (22, 38), (20, 37), (20, 38), (20, 36)]
+Tip (ID: 4) at (21, 37) grew to (20, 38) with VEGF value: 0.6301435823471202
+Previous position: (23, 17)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(25, 18), (25, 19), (25, 17), (24, 19), (24, 17)]
+Valid neighbors after grid boundary check: [(25, 18), (25, 19), (25, 17), (24, 19), (24, 17)]
+Tip (ID: 5) at (24, 18) grew to (25, 19) with VEGF value: 0.39083445534730565
+Previous position: (29, 31)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(28, 33), (29, 33), (27, 32), (27, 33), (27, 31)]
+Valid neighbors after grid boundary check: [(28, 33), (29, 33), (27, 32), (27, 33), (27, 31)]
+Tip (ID: 6) at (28, 32) grew to (29, 33) with VEGF value: 0.7737845284764652
+Tip positions after growth:
+  Vessel ID 1: position (18, 25), VEGF value: 0.5923
+  Vessel ID 2: position (35, 28), VEGF value: 0.3282
+  Vessel ID 3: position (26, 11), VEGF value: 0.3975
+  Vessel ID 4: position (20, 38), VEGF value: 0.5986
+  Vessel ID 5: position (25, 19), VEGF value: 0.3713
+  Vessel ID 6: position (29, 33), VEGF value: 0.7351
+
+--- Step 10/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (18, 25), VEGF value: 0.5923
+  Vessel ID 2: position (35, 28), VEGF value: 0.3282
+  Vessel ID 3: position (26, 11), VEGF value: 0.3975
+  Vessel ID 4: position (20, 38), VEGF value: 0.5986
+  Vessel ID 5: position (25, 19), VEGF value: 0.3713
+  Vessel ID 6: position (29, 33), VEGF value: 0.7351
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (18, 25), VEGF value: 0.5923
+  Vessel ID 2: position (35, 28), VEGF value: 0.3282
+  Vessel ID 3: position (26, 11), VEGF value: 0.3975
+  Vessel ID 4: position (20, 38), VEGF value: 0.5986
+  Vessel ID 5: position (25, 19), VEGF value: 0.3713
+  Vessel ID 6: position (29, 33), VEGF value: 0.7351
+
+--- Step 11/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (18, 25), VEGF value: 0.5923
+  Vessel ID 2: position (35, 28), VEGF value: 0.3282
+  Vessel ID 3: position (26, 11), VEGF value: 0.3975
+  Vessel ID 4: position (20, 38), VEGF value: 0.5986
+  Vessel ID 5: position (25, 19), VEGF value: 0.3713
+  Vessel ID 6: position (29, 33), VEGF value: 0.7351
+Growing vasculature...
+Previous position: (17, 24)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(19, 25), (19, 26), (19, 24), (18, 26), (18, 24)]
+Valid neighbors after grid boundary check: [(19, 25), (19, 26), (19, 24), (18, 26), (18, 24)]
+Tip (ID: 1) at (18, 25) grew to (18, 26) with VEGF value: 0.5898588922744677
+Previous position: (35, 27)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(35, 29), (36, 29), (36, 28), (34, 28), (34, 29)]
+Valid neighbors after grid boundary check: [(35, 29), (36, 29), (36, 28), (34, 28), (34, 29)]
+Tip (ID: 2) at (35, 28) grew to (36, 28) with VEGF value: 0.7396224962658907
+Previous position: (27, 12)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(26, 12), (26, 10), (25, 11), (25, 12), (25, 10)]
+Valid neighbors after grid boundary check: [(26, 10), (25, 11), (25, 12), (25, 10)]
+Tip (ID: 3) at (26, 11) grew to (25, 10) with VEGF value: 0.41653214678595296
+Previous position: (21, 37)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(20, 39), (21, 39), (19, 38), (19, 39), (19, 37)]
+Valid neighbors after grid boundary check: [(20, 39), (21, 39), (19, 38), (19, 39), (19, 37)]
+Tip (ID: 4) at (20, 38) grew to (19, 38) with VEGF value: 0.7602429250189031
+Previous position: (24, 18)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(26, 19), (26, 20), (26, 18), (25, 20), (25, 18)]
+Valid neighbors after grid boundary check: [(26, 19), (26, 20), (26, 18), (25, 20), (25, 18)]
+Tip (ID: 5) at (25, 19) grew to (26, 18) with VEGF value: 0.6408912684067269
+Previous position: (28, 32)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(30, 33), (30, 34), (30, 32), (29, 34), (29, 32)]
+Valid neighbors after grid boundary check: [(30, 33), (30, 34), (30, 32), (29, 34), (29, 32)]
+Tip (ID: 6) at (29, 33) grew to (29, 32) with VEGF value: 0.3977280715929139
+Tip positions after growth:
+  Vessel ID 1: position (18, 26), VEGF value: 0.5604
+  Vessel ID 2: position (36, 28), VEGF value: 0.7026
+  Vessel ID 3: position (25, 10), VEGF value: 0.3957
+  Vessel ID 4: position (19, 38), VEGF value: 0.7222
+  Vessel ID 5: position (26, 18), VEGF value: 0.6088
+  Vessel ID 6: position (29, 32), VEGF value: 0.3778
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_11.png
+
+--- Step 12/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (18, 26), VEGF value: 0.5604
+  Vessel ID 2: position (36, 28), VEGF value: 0.7026
+  Vessel ID 3: position (25, 10), VEGF value: 0.3957
+  Vessel ID 4: position (19, 38), VEGF value: 0.7222
+  Vessel ID 5: position (26, 18), VEGF value: 0.6088
+  Vessel ID 6: position (29, 32), VEGF value: 0.3778
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (18, 26), VEGF value: 0.5604
+  Vessel ID 2: position (36, 28), VEGF value: 0.7026
+  Vessel ID 3: position (25, 10), VEGF value: 0.3957
+  Vessel ID 4: position (19, 38), VEGF value: 0.7222
+  Vessel ID 5: position (26, 18), VEGF value: 0.6088
+  Vessel ID 6: position (29, 32), VEGF value: 0.3778
+
+--- Step 13/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (18, 26), VEGF value: 0.5604
+  Vessel ID 2: position (36, 28), VEGF value: 0.7026
+  Vessel ID 3: position (25, 10), VEGF value: 0.3957
+  Vessel ID 4: position (19, 38), VEGF value: 0.7222
+  Vessel ID 5: position (26, 18), VEGF value: 0.6088
+  Vessel ID 6: position (29, 32), VEGF value: 0.3778
+Growing vasculature...
+Previous position: (18, 25)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(18, 27), (19, 27), (19, 26), (17, 26), (17, 27)]
+Valid neighbors after grid boundary check: [(18, 27), (19, 27), (19, 26), (17, 26), (17, 27)]
+Tip (ID: 1) at (18, 26) grew to (17, 27) with VEGF value: 0.6583503556444812
+Previous position: (35, 28)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(36, 27), (36, 29), (35, 28), (35, 29), (35, 27)]
+Valid neighbors after grid boundary check: [(36, 27), (36, 29), (35, 29)]
+Tip (ID: 2) at (36, 28) grew to (36, 27) with VEGF value: 0.5286439406145858
+Previous position: (26, 11)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(25, 11), (25, 9), (24, 10), (24, 11), (24, 9)]
+Valid neighbors after grid boundary check: [(25, 11), (25, 9), (24, 10), (24, 11), (24, 9)]
+Tip (ID: 3) at (25, 10) grew to (25, 9) with VEGF value: 0.6096150243187822
+Previous position: (20, 38)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(19, 37), (19, 39), (18, 38), (18, 39), (18, 37)]
+Valid neighbors after grid boundary check: [(19, 37), (19, 39), (18, 38), (18, 39), (18, 37)]
+Tip (ID: 4) at (19, 38) grew to (18, 39) with VEGF value: 0.5241400883286199
+Previous position: (25, 19)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(27, 18), (27, 19), (27, 17), (26, 19), (26, 17)]
+Valid neighbors after grid boundary check: [(27, 18), (27, 19), (27, 17), (26, 19), (26, 17)]
+Tip (ID: 5) at (26, 18) grew to (26, 17) with VEGF value: 0.6492418715670816
+Previous position: (29, 33)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(29, 31), (30, 31), (30, 32), (28, 32), (28, 31)]
+Valid neighbors after grid boundary check: [(30, 31), (30, 32), (28, 31)]
+Tip (ID: 6) at (29, 32) grew to (28, 31) with VEGF value: 0.42252213047955045
+Tip positions after growth:
+  Vessel ID 1: position (17, 27), VEGF value: 0.6254
+  Vessel ID 2: position (36, 27), VEGF value: 0.5022
+  Vessel ID 3: position (25, 9), VEGF value: 0.5791
+  Vessel ID 4: position (18, 39), VEGF value: 0.4979
+  Vessel ID 5: position (26, 17), VEGF value: 0.6168
+  Vessel ID 6: position (28, 31), VEGF value: 0.4014
+
+--- Step 14/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 27), VEGF value: 0.6254
+  Vessel ID 2: position (36, 27), VEGF value: 0.5022
+  Vessel ID 3: position (25, 9), VEGF value: 0.5791
+  Vessel ID 4: position (18, 39), VEGF value: 0.4979
+  Vessel ID 5: position (26, 17), VEGF value: 0.6168
+  Vessel ID 6: position (28, 31), VEGF value: 0.4014
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (17, 27), VEGF value: 0.6254
+  Vessel ID 2: position (36, 27), VEGF value: 0.5022
+  Vessel ID 3: position (25, 9), VEGF value: 0.5791
+  Vessel ID 4: position (18, 39), VEGF value: 0.4979
+  Vessel ID 5: position (26, 17), VEGF value: 0.6168
+  Vessel ID 6: position (28, 31), VEGF value: 0.4014
+
+--- Step 15/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 27), VEGF value: 0.6254
+  Vessel ID 2: position (36, 27), VEGF value: 0.5022
+  Vessel ID 3: position (25, 9), VEGF value: 0.5791
+  Vessel ID 4: position (18, 39), VEGF value: 0.4979
+  Vessel ID 5: position (26, 17), VEGF value: 0.6168
+  Vessel ID 6: position (28, 31), VEGF value: 0.4014
+Growing vasculature...
+Previous position: (18, 26)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(17, 28), (18, 28), (16, 27), (16, 28), (16, 26)]
+Valid neighbors after grid boundary check: [(17, 28), (18, 28), (16, 27), (16, 28), (16, 26)]
+Tip (ID: 1) at (17, 27) grew to (17, 28) with VEGF value: 0.6731286668579869
+Previous position: (36, 28)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(36, 26), (37, 26), (37, 27), (35, 27), (35, 26)]
+Valid neighbors after grid boundary check: [(36, 26), (37, 26), (37, 27), (35, 26)]
+Tip (ID: 2) at (36, 27) grew to (36, 26) with VEGF value: 0.18459890894070483
+Previous position: (25, 10)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(25, 8), (26, 8), (26, 9), (24, 9), (24, 8)]
+Valid neighbors after grid boundary check: [(25, 8), (26, 8), (26, 9), (24, 9), (24, 8)]
+Tip (ID: 3) at (25, 9) grew to (26, 9) with VEGF value: 0.5143735069562176
+Previous position: (19, 38)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(18, 40), (19, 40), (17, 39), (17, 40), (17, 38)]
+Valid neighbors after grid boundary check: [(17, 39), (17, 38)]
+Tip (ID: 4) at (18, 39) grew to (17, 38) with VEGF value: 0.2176091039435373
+Previous position: (26, 18)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(26, 16), (27, 16), (27, 17), (25, 17), (25, 16)]
+Valid neighbors after grid boundary check: [(26, 16), (27, 16), (27, 17), (25, 17), (25, 16)]
+Tip (ID: 5) at (26, 17) grew to (26, 16) with VEGF value: 0.46003857315333296
+Previous position: (29, 32)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(28, 32), (28, 30), (27, 31), (27, 32), (27, 30)]
+Valid neighbors after grid boundary check: [(28, 30), (27, 31), (27, 32), (27, 30)]
+Tip (ID: 6) at (28, 31) grew to (27, 31) with VEGF value: 0.5304811952899803
+Tip positions after growth:
+  Vessel ID 1: position (17, 28), VEGF value: 0.6395
+  Vessel ID 2: position (36, 26), VEGF value: 0.1754
+  Vessel ID 3: position (26, 9), VEGF value: 0.4887
+  Vessel ID 4: position (17, 38), VEGF value: 0.2067
+  Vessel ID 5: position (26, 16), VEGF value: 0.4370
+  Vessel ID 6: position (27, 31), VEGF value: 0.5040
+
+--- Step 16/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 28), VEGF value: 0.6395
+  Vessel ID 2: position (36, 26), VEGF value: 0.1754
+  Vessel ID 3: position (26, 9), VEGF value: 0.4887
+  Vessel ID 4: position (17, 38), VEGF value: 0.2067
+  Vessel ID 5: position (26, 16), VEGF value: 0.4370
+  Vessel ID 6: position (27, 31), VEGF value: 0.5040
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 5 at (26, 16) connecting to Vessel ID 3 at (25, 15)
+  Anastomosis between Tip 5 and Vessel 3
+Tip positions after growth:
+  Vessel ID 1: position (17, 28), VEGF value: 0.6395
+  Vessel ID 2: position (36, 26), VEGF value: 0.1754
+  Vessel ID 3: position (26, 9), VEGF value: 0.4887
+  Vessel ID 4: position (17, 38), VEGF value: 0.2067
+  Vessel ID 6: position (27, 31), VEGF value: 0.5040
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_16.png
+
+--- Step 17/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (17, 28), VEGF value: 0.6395
+  Vessel ID 2: position (36, 26), VEGF value: 0.1754
+  Vessel ID 3: position (26, 9), VEGF value: 0.4887
+  Vessel ID 4: position (17, 38), VEGF value: 0.2067
+  Vessel ID 6: position (27, 31), VEGF value: 0.5040
+Growing vasculature...
+Previous position: (17, 27)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(17, 29), (18, 29), (18, 28), (16, 28), (16, 29)]
+Valid neighbors after grid boundary check: [(17, 29), (18, 29), (18, 28), (16, 28), (16, 29)]
+Tip (ID: 1) at (17, 28) grew to (16, 28) with VEGF value: 0.5173191917762232
+Previous position: (36, 27)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(36, 25), (37, 25), (37, 26), (35, 26), (35, 25)]
+Valid neighbors after grid boundary check: [(36, 25), (37, 25), (37, 26), (35, 26)]
+Tip (ID: 2) at (36, 26) grew to (37, 25) with VEGF value: 0.3251676811016616
+Previous position: (25, 9)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(26, 8), (26, 10), (25, 9), (25, 10), (25, 8)]
+Valid neighbors after grid boundary check: [(26, 8), (26, 10), (25, 8)]
+Tip (ID: 3) at (26, 9) grew to (25, 8) with VEGF value: 0.42376884675435417
+Previous position: (18, 39)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(17, 39), (17, 37), (16, 38), (16, 39), (16, 37)]
+Valid neighbors after grid boundary check: [(17, 39), (17, 37), (16, 38), (16, 39), (16, 37)]
+Tip (ID: 4) at (17, 38) grew to (16, 37) with VEGF value: 0.6473289560419915
+Previous position: (28, 31)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(27, 30), (27, 32), (26, 31), (26, 32), (26, 30)]
+Valid neighbors after grid boundary check: [(27, 30), (27, 32), (26, 31), (26, 32), (26, 30)]
+Tip (ID: 6) at (27, 31) grew to (26, 30) with VEGF value: 0.5701178266425461
+Tip positions after growth:
+  Vessel ID 1: position (16, 28), VEGF value: 0.4915
+  Vessel ID 2: position (37, 25), VEGF value: 0.3089
+  Vessel ID 3: position (25, 8), VEGF value: 0.4026
+  Vessel ID 4: position (16, 37), VEGF value: 0.6150
+  Vessel ID 6: position (26, 30), VEGF value: 0.5416
+
+--- Step 18/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 28), VEGF value: 0.4915
+  Vessel ID 2: position (37, 25), VEGF value: 0.3089
+  Vessel ID 3: position (25, 8), VEGF value: 0.4026
+  Vessel ID 4: position (16, 37), VEGF value: 0.6150
+  Vessel ID 6: position (26, 30), VEGF value: 0.5416
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (16, 28), VEGF value: 0.4915
+  Vessel ID 2: position (37, 25), VEGF value: 0.3089
+  Vessel ID 3: position (25, 8), VEGF value: 0.4026
+  Vessel ID 4: position (16, 37), VEGF value: 0.6150
+  Vessel ID 6: position (26, 30), VEGF value: 0.5416
+
+--- Step 19/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (16, 28), VEGF value: 0.4915
+  Vessel ID 2: position (37, 25), VEGF value: 0.3089
+  Vessel ID 3: position (25, 8), VEGF value: 0.4026
+  Vessel ID 4: position (16, 37), VEGF value: 0.6150
+  Vessel ID 6: position (26, 30), VEGF value: 0.5416
+Growing vasculature...
+Previous position: (17, 28)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(16, 27), (16, 29), (15, 28), (15, 29), (15, 27)]
+Valid neighbors after grid boundary check: [(16, 27), (16, 29), (15, 28), (15, 29), (15, 27)]
+Tip (ID: 1) at (16, 28) grew to (15, 28) with VEGF value: 0.5222339877878097
+Previous position: (36, 26)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(38, 25), (38, 26), (38, 24), (37, 26), (37, 24)]
+Valid neighbors after grid boundary check: [(38, 25), (38, 26), (38, 24), (37, 26), (37, 24)]
+Tip (ID: 2) at (37, 25) grew to (38, 25) with VEGF value: 0.5941935515800364
+Previous position: (26, 9)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(25, 9), (25, 7), (24, 8), (24, 9), (24, 7)]
+Valid neighbors after grid boundary check: [(25, 7), (24, 8), (24, 9), (24, 7)]
+Tip (ID: 3) at (25, 8) grew to (24, 8) with VEGF value: 0.22423012569419631
+Previous position: (17, 38)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(16, 38), (16, 36), (15, 37), (15, 38), (15, 36)]
+Valid neighbors after grid boundary check: [(16, 38), (16, 36), (15, 37), (15, 38), (15, 36)]
+Tip (ID: 4) at (16, 37) grew to (15, 37) with VEGF value: 0.530069431703545
+Previous position: (27, 31)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(26, 31), (26, 29), (25, 30), (25, 31), (25, 29)]
+Valid neighbors after grid boundary check: [(26, 31), (26, 29), (25, 30), (25, 31), (25, 29)]
+Tip (ID: 6) at (26, 30) grew to (26, 31) with VEGF value: 0.443537572199145
+Tip positions after growth:
+  Vessel ID 1: position (15, 28), VEGF value: 0.4961
+  Vessel ID 2: position (38, 25), VEGF value: 0.5645
+  Vessel ID 3: position (24, 8), VEGF value: 0.2130
+  Vessel ID 4: position (15, 37), VEGF value: 0.5036
+  Vessel ID 6: position (26, 31), VEGF value: 0.4214
+
+--- Step 20/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (15, 28), VEGF value: 0.4961
+  Vessel ID 2: position (38, 25), VEGF value: 0.5645
+  Vessel ID 3: position (24, 8), VEGF value: 0.2130
+  Vessel ID 4: position (15, 37), VEGF value: 0.5036
+  Vessel ID 6: position (26, 31), VEGF value: 0.4214
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (15, 28), VEGF value: 0.4961
+  Vessel ID 2: position (38, 25), VEGF value: 0.5645
+  Vessel ID 3: position (24, 8), VEGF value: 0.2130
+  Vessel ID 4: position (15, 37), VEGF value: 0.5036
+  Vessel ID 6: position (26, 31), VEGF value: 0.4214
+
+--- Step 21/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (15, 28), VEGF value: 0.4961
+  Vessel ID 2: position (38, 25), VEGF value: 0.5645
+  Vessel ID 3: position (24, 8), VEGF value: 0.2130
+  Vessel ID 4: position (15, 37), VEGF value: 0.5036
+  Vessel ID 6: position (26, 31), VEGF value: 0.4214
+Growing vasculature...
+Previous position: (16, 28)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(15, 27), (15, 29), (14, 28), (14, 29), (14, 27)]
+Valid neighbors after grid boundary check: [(15, 27), (15, 29), (14, 28), (14, 29), (14, 27)]
+Tip (ID: 1) at (15, 28) grew to (14, 29) with VEGF value: 0.510700639559745
+Previous position: (37, 25)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(38, 24), (38, 26), (37, 25), (37, 26), (37, 24)]
+Valid neighbors after grid boundary check: [(38, 24), (38, 26), (37, 26), (37, 24)]
+Tip (ID: 2) at (38, 25) grew to (38, 24) with VEGF value: 0.41485779977136983
+Previous position: (25, 8)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(24, 7), (24, 9), (23, 8), (23, 9), (23, 7)]
+Valid neighbors after grid boundary check: [(24, 7), (24, 9), (23, 8), (23, 9), (23, 7)]
+Tip (ID: 3) at (24, 8) grew to (23, 7) with VEGF value: 0.41455360370416117
+Previous position: (16, 37)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(15, 36), (15, 38), (14, 37), (14, 38), (14, 36)]
+Valid neighbors after grid boundary check: [(15, 36), (15, 38), (14, 37), (14, 38), (14, 36)]
+Tip (ID: 4) at (15, 37) grew to (14, 36) with VEGF value: 0.46514412064513266
+Previous position: (26, 30)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(26, 32), (27, 32), (27, 31), (25, 31), (25, 32)]
+Valid neighbors after grid boundary check: [(26, 32), (27, 32), (25, 31), (25, 32)]
+Tip (ID: 6) at (26, 31) grew to (27, 32) with VEGF value: 0.38029900531299854
+Tip positions after growth:
+  Vessel ID 1: position (14, 29), VEGF value: 0.4852
+  Vessel ID 2: position (38, 24), VEGF value: 0.3941
+  Vessel ID 3: position (23, 7), VEGF value: 0.3938
+  Vessel ID 4: position (14, 36), VEGF value: 0.4419
+  Vessel ID 6: position (27, 32), VEGF value: 0.3613
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_21.png
+
+--- Step 22/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (14, 29), VEGF value: 0.4852
+  Vessel ID 2: position (38, 24), VEGF value: 0.3941
+  Vessel ID 3: position (23, 7), VEGF value: 0.3938
+  Vessel ID 4: position (14, 36), VEGF value: 0.4419
+  Vessel ID 6: position (27, 32), VEGF value: 0.3613
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (14, 29), VEGF value: 0.4852
+  Vessel ID 2: position (38, 24), VEGF value: 0.3941
+  Vessel ID 3: position (23, 7), VEGF value: 0.3938
+  Vessel ID 4: position (14, 36), VEGF value: 0.4419
+  Vessel ID 6: position (27, 32), VEGF value: 0.3613
+
+--- Step 23/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (14, 29), VEGF value: 0.4852
+  Vessel ID 2: position (38, 24), VEGF value: 0.3941
+  Vessel ID 3: position (23, 7), VEGF value: 0.3938
+  Vessel ID 4: position (14, 36), VEGF value: 0.4419
+  Vessel ID 6: position (27, 32), VEGF value: 0.3613
+Growing vasculature...
+Previous position: (15, 28)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(14, 30), (15, 30), (13, 29), (13, 30), (13, 28)]
+Valid neighbors after grid boundary check: [(14, 30), (15, 30), (13, 29), (13, 30), (13, 28)]
+Tip (ID: 1) at (14, 29) grew to (13, 28) with VEGF value: 0.4406746761564959
+Previous position: (38, 25)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(38, 23), (39, 23), (39, 24), (37, 24), (37, 23)]
+Valid neighbors after grid boundary check: [(38, 23), (39, 23), (39, 24), (37, 24), (37, 23)]
+Tip (ID: 2) at (38, 24) grew to (37, 23) with VEGF value: 0.47854687945637153
+Previous position: (24, 8)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(23, 8), (23, 6), (22, 7), (22, 8), (22, 6)]
+Valid neighbors after grid boundary check: [(23, 8), (23, 6), (22, 7), (22, 8), (22, 6)]
+Tip (ID: 3) at (23, 7) grew to (22, 6) with VEGF value: 0.5072827042695816
+Previous position: (15, 37)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(14, 37), (14, 35), (13, 36), (13, 37), (13, 35)]
+Valid neighbors after grid boundary check: [(14, 37), (14, 35), (13, 36), (13, 37), (13, 35)]
+Tip (ID: 4) at (14, 36) grew to (13, 35) with VEGF value: 0.4491354228456623
+Previous position: (26, 31)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(28, 32), (28, 33), (28, 31), (27, 33), (27, 31)]
+Valid neighbors after grid boundary check: [(28, 33), (27, 33)]
+Tip (ID: 6) at (27, 32) grew to (27, 33) with VEGF value: 0.40471568886277337
+Tip positions after growth:
+  Vessel ID 1: position (13, 28), VEGF value: 0.4186
+  Vessel ID 2: position (37, 23), VEGF value: 0.4546
+  Vessel ID 3: position (22, 6), VEGF value: 0.4819
+  Vessel ID 4: position (13, 35), VEGF value: 0.4267
+  Vessel ID 6: position (27, 33), VEGF value: 0.3845
+
+--- Step 24/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (13, 28), VEGF value: 0.4186
+  Vessel ID 2: position (37, 23), VEGF value: 0.4546
+  Vessel ID 3: position (22, 6), VEGF value: 0.4819
+  Vessel ID 4: position (13, 35), VEGF value: 0.4267
+  Vessel ID 6: position (27, 33), VEGF value: 0.3845
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (13, 28), VEGF value: 0.4186
+  Vessel ID 2: position (37, 23), VEGF value: 0.4546
+  Vessel ID 3: position (22, 6), VEGF value: 0.4819
+  Vessel ID 4: position (13, 35), VEGF value: 0.4267
+  Vessel ID 6: position (27, 33), VEGF value: 0.3845
+
+--- Step 25/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (13, 28), VEGF value: 0.4186
+  Vessel ID 2: position (37, 23), VEGF value: 0.4546
+  Vessel ID 3: position (22, 6), VEGF value: 0.4819
+  Vessel ID 4: position (13, 35), VEGF value: 0.4267
+  Vessel ID 6: position (27, 33), VEGF value: 0.3845
+Growing vasculature...
+Previous position: (14, 29)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(13, 29), (13, 27), (12, 28), (12, 29), (12, 27)]
+Valid neighbors after grid boundary check: [(13, 29), (13, 27), (12, 28), (12, 29), (12, 27)]
+Tip (ID: 1) at (13, 28) grew to (12, 28) with VEGF value: 0.5315445877809261
+Previous position: (38, 24)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(37, 24), (37, 22), (36, 23), (36, 24), (36, 22)]
+Valid neighbors after grid boundary check: [(37, 24), (37, 22), (36, 23), (36, 24), (36, 22)]
+Tip (ID: 2) at (37, 23) grew to (36, 24) with VEGF value: 0.4799918145197204
+Previous position: (23, 7)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(22, 7), (22, 5), (21, 6), (21, 7), (21, 5)]
+Valid neighbors after grid boundary check: [(22, 7), (22, 5), (21, 6), (21, 7), (21, 5)]
+Tip (ID: 3) at (22, 6) grew to (21, 7) with VEGF value: 0.5328311559483173
+Previous position: (14, 36)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(13, 36), (13, 34), (12, 35), (12, 36), (12, 34)]
+Valid neighbors after grid boundary check: [(13, 36), (13, 34), (12, 35), (12, 36), (12, 34)]
+Tip (ID: 4) at (13, 35) grew to (13, 34) with VEGF value: 0.5218159037333496
+Previous position: (27, 32)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(27, 34), (28, 34), (28, 33), (26, 33), (26, 34)]
+Valid neighbors after grid boundary check: [(27, 34), (28, 34), (28, 33), (26, 33), (26, 34)]
+Tip (ID: 6) at (27, 33) grew to (28, 34) with VEGF value: 0.5118283509011521
+Tip positions after growth:
+  Vessel ID 1: position (12, 28), VEGF value: 0.5050
+  Vessel ID 2: position (36, 24), VEGF value: 0.4560
+  Vessel ID 3: position (21, 7), VEGF value: 0.5062
+  Vessel ID 4: position (13, 34), VEGF value: 0.4957
+  Vessel ID 6: position (28, 34), VEGF value: 0.4862
+
+--- Step 26/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (12, 28), VEGF value: 0.5050
+  Vessel ID 2: position (36, 24), VEGF value: 0.4560
+  Vessel ID 3: position (21, 7), VEGF value: 0.5062
+  Vessel ID 4: position (13, 34), VEGF value: 0.4957
+  Vessel ID 6: position (28, 34), VEGF value: 0.4862
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (12, 28), VEGF value: 0.5050
+  Vessel ID 2: position (36, 24), VEGF value: 0.4560
+  Vessel ID 3: position (21, 7), VEGF value: 0.5062
+  Vessel ID 4: position (13, 34), VEGF value: 0.4957
+  Vessel ID 6: position (28, 34), VEGF value: 0.4862
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_26.png
+
+--- Step 27/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (12, 28), VEGF value: 0.5050
+  Vessel ID 2: position (36, 24), VEGF value: 0.4560
+  Vessel ID 3: position (21, 7), VEGF value: 0.5062
+  Vessel ID 4: position (13, 34), VEGF value: 0.4957
+  Vessel ID 6: position (28, 34), VEGF value: 0.4862
+Growing vasculature...
+Previous position: (13, 28)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(12, 27), (12, 29), (11, 28), (11, 29), (11, 27)]
+Valid neighbors after grid boundary check: [(12, 27), (12, 29), (11, 28), (11, 29), (11, 27)]
+Tip (ID: 1) at (12, 28) grew to (12, 27) with VEGF value: 0.49214324077822974
+Previous position: (37, 23)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(36, 25), (37, 25), (35, 24), (35, 25), (35, 23)]
+Valid neighbors after grid boundary check: [(36, 25), (35, 24), (35, 23)]
+Tip (ID: 2) at (36, 24) grew to (35, 23) with VEGF value: 0.3544517094844337
+Previous position: (22, 6)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(21, 8), (22, 8), (20, 7), (20, 8), (20, 6)]
+Valid neighbors after grid boundary check: [(21, 8), (22, 8), (20, 7), (20, 8), (20, 6)]
+Tip (ID: 3) at (21, 7) grew to (20, 8) with VEGF value: 0.4060674851002459
+Previous position: (13, 35)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(13, 33), (14, 33), (14, 34), (12, 34), (12, 33)]
+Valid neighbors after grid boundary check: [(13, 33), (14, 33), (14, 34), (12, 34), (12, 33)]
+Tip (ID: 4) at (13, 34) grew to (14, 34) with VEGF value: 0.5021697442914507
+Previous position: (27, 33)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(29, 34), (29, 35), (29, 33), (28, 35), (28, 33)]
+Valid neighbors after grid boundary check: [(29, 34), (29, 35), (28, 35), (28, 33)]
+Tip (ID: 6) at (28, 34) grew to (28, 35) with VEGF value: 0.38654882663290774
+Tip positions after growth:
+  Vessel ID 1: position (12, 27), VEGF value: 0.4675
+  Vessel ID 2: position (35, 23), VEGF value: 0.3367
+  Vessel ID 3: position (20, 8), VEGF value: 0.3858
+  Vessel ID 4: position (14, 34), VEGF value: 0.4771
+  Vessel ID 6: position (28, 35), VEGF value: 0.3672
+
+--- Step 28/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (12, 27), VEGF value: 0.4675
+  Vessel ID 2: position (35, 23), VEGF value: 0.3367
+  Vessel ID 3: position (20, 8), VEGF value: 0.3858
+  Vessel ID 4: position (14, 34), VEGF value: 0.4771
+  Vessel ID 6: position (28, 35), VEGF value: 0.3672
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (12, 27), VEGF value: 0.4675
+  Vessel ID 2: position (35, 23), VEGF value: 0.3367
+  Vessel ID 3: position (20, 8), VEGF value: 0.3858
+  Vessel ID 4: position (14, 34), VEGF value: 0.4771
+  Vessel ID 6: position (28, 35), VEGF value: 0.3672
+
+--- Step 29/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (12, 27), VEGF value: 0.4675
+  Vessel ID 2: position (35, 23), VEGF value: 0.3367
+  Vessel ID 3: position (20, 8), VEGF value: 0.3858
+  Vessel ID 4: position (14, 34), VEGF value: 0.4771
+  Vessel ID 6: position (28, 35), VEGF value: 0.3672
+Growing vasculature...
+Previous position: (12, 28)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(12, 26), (13, 26), (13, 27), (11, 27), (11, 26)]
+Valid neighbors after grid boundary check: [(12, 26), (13, 26), (13, 27), (11, 27), (11, 26)]
+Tip (ID: 1) at (12, 27) grew to (11, 26) with VEGF value: 0.4787401418179808
+Previous position: (36, 24)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(35, 24), (35, 22), (34, 23), (34, 24), (34, 22)]
+Valid neighbors after grid boundary check: [(35, 24), (35, 22), (34, 23), (34, 24), (34, 22)]
+Tip (ID: 2) at (35, 23) grew to (34, 22) with VEGF value: 0.38129436940050476
+Previous position: (21, 7)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(20, 9), (21, 9), (19, 8), (19, 9), (19, 7)]
+Valid neighbors after grid boundary check: [(20, 9), (21, 9), (19, 8), (19, 9), (19, 7)]
+Tip (ID: 3) at (20, 8) grew to (19, 8) with VEGF value: 0.45258143422834685
+Previous position: (13, 34)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(14, 33), (14, 35), (13, 34), (13, 35), (13, 33)]
+Valid neighbors after grid boundary check: [(14, 33), (14, 35), (13, 33)]
+Tip (ID: 4) at (14, 34) grew to (13, 33) with VEGF value: 0.45600408202262843
+Previous position: (28, 34)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(28, 36), (29, 36), (29, 35), (27, 35), (27, 36)]
+Valid neighbors after grid boundary check: [(28, 36), (29, 36), (29, 35), (27, 35), (27, 36)]
+Tip (ID: 6) at (28, 35) grew to (28, 36) with VEGF value: 0.4460261750426372
+Tip positions after growth:
+  Vessel ID 1: position (11, 26), VEGF value: 0.4548
+  Vessel ID 2: position (34, 22), VEGF value: 0.3622
+  Vessel ID 3: position (19, 8), VEGF value: 0.4300
+  Vessel ID 4: position (13, 33), VEGF value: 0.4332
+  Vessel ID 6: position (28, 36), VEGF value: 0.4237
+
+--- Step 30/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (11, 26), VEGF value: 0.4548
+  Vessel ID 2: position (34, 22), VEGF value: 0.3622
+  Vessel ID 3: position (19, 8), VEGF value: 0.4300
+  Vessel ID 4: position (13, 33), VEGF value: 0.4332
+  Vessel ID 6: position (28, 36), VEGF value: 0.4237
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (11, 26), VEGF value: 0.4548
+  Vessel ID 2: position (34, 22), VEGF value: 0.3622
+  Vessel ID 3: position (19, 8), VEGF value: 0.4300
+  Vessel ID 4: position (13, 33), VEGF value: 0.4332
+  Vessel ID 6: position (28, 36), VEGF value: 0.4237
+
+--- Step 31/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (11, 26), VEGF value: 0.4548
+  Vessel ID 2: position (34, 22), VEGF value: 0.3622
+  Vessel ID 3: position (19, 8), VEGF value: 0.4300
+  Vessel ID 4: position (13, 33), VEGF value: 0.4332
+  Vessel ID 6: position (28, 36), VEGF value: 0.4237
+Growing vasculature...
+Previous position: (12, 27)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(11, 27), (11, 25), (10, 26), (10, 27), (10, 25)]
+Valid neighbors after grid boundary check: [(11, 27), (11, 25), (10, 26), (10, 27), (10, 25)]
+Tip (ID: 1) at (11, 26) grew to (11, 25) with VEGF value: 0.43577888036781054
+Previous position: (35, 23)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(34, 23), (34, 21), (33, 22), (33, 23), (33, 21)]
+Valid neighbors after grid boundary check: [(34, 23), (34, 21), (33, 22), (33, 23), (33, 21)]
+Tip (ID: 2) at (34, 22) grew to (34, 21) with VEGF value: 0.3248775245209086
+Previous position: (20, 8)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(19, 7), (19, 9), (18, 8), (18, 9), (18, 7)]
+Valid neighbors after grid boundary check: [(19, 7), (19, 9), (18, 8), (18, 9), (18, 7)]
+Tip (ID: 3) at (19, 8) grew to (19, 9) with VEGF value: 0.21990029321299018
+Previous position: (14, 34)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(13, 34), (13, 32), (12, 33), (12, 34), (12, 32)]
+Valid neighbors after grid boundary check: [(13, 32), (12, 33), (12, 34), (12, 32)]
+Tip (ID: 4) at (13, 33) grew to (12, 34) with VEGF value: 0.34548455586980825
+Previous position: (28, 35)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(28, 37), (29, 37), (29, 36), (27, 36), (27, 37)]
+Valid neighbors after grid boundary check: [(28, 37), (29, 37), (29, 36), (27, 36), (27, 37)]
+Tip (ID: 6) at (28, 36) grew to (27, 37) with VEGF value: 0.284179262632114
+Tip positions after growth:
+  Vessel ID 1: position (11, 25), VEGF value: 0.4140
+  Vessel ID 2: position (34, 21), VEGF value: 0.3086
+  Vessel ID 3: position (19, 9), VEGF value: 0.2089
+  Vessel ID 4: position (12, 34), VEGF value: 0.3282
+  Vessel ID 6: position (27, 37), VEGF value: 0.2700
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_31.png
+
+--- Step 32/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (11, 25), VEGF value: 0.4140
+  Vessel ID 2: position (34, 21), VEGF value: 0.3086
+  Vessel ID 3: position (19, 9), VEGF value: 0.2089
+  Vessel ID 4: position (12, 34), VEGF value: 0.3282
+  Vessel ID 6: position (27, 37), VEGF value: 0.2700
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (11, 25), VEGF value: 0.4140
+  Vessel ID 2: position (34, 21), VEGF value: 0.3086
+  Vessel ID 3: position (19, 9), VEGF value: 0.2089
+  Vessel ID 4: position (12, 34), VEGF value: 0.3282
+  Vessel ID 6: position (27, 37), VEGF value: 0.2700
+
+--- Step 33/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (11, 25), VEGF value: 0.4140
+  Vessel ID 2: position (34, 21), VEGF value: 0.3086
+  Vessel ID 3: position (19, 9), VEGF value: 0.2089
+  Vessel ID 4: position (12, 34), VEGF value: 0.3282
+  Vessel ID 6: position (27, 37), VEGF value: 0.2700
+Growing vasculature...
+Previous position: (11, 26)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(11, 24), (12, 24), (12, 25), (10, 25), (10, 24)]
+Valid neighbors after grid boundary check: [(11, 24), (12, 24), (12, 25), (10, 25), (10, 24)]
+Tip (ID: 1) at (11, 25) grew to (10, 25) with VEGF value: 0.3434366163501197
+Previous position: (34, 22)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(34, 20), (35, 20), (35, 21), (33, 21), (33, 20)]
+Valid neighbors after grid boundary check: [(34, 20), (35, 20), (35, 21), (33, 21), (33, 20)]
+Tip (ID: 2) at (34, 21) grew to (35, 21) with VEGF value: 0.3242255673744036
+Previous position: (19, 8)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(19, 10), (20, 10), (20, 9), (18, 9), (18, 10)]
+Valid neighbors after grid boundary check: [(19, 10), (20, 10), (20, 9), (18, 9), (18, 10)]
+Tip (ID: 3) at (19, 9) grew to (19, 10) with VEGF value: 0.31293091529310646
+Previous position: (13, 33)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(12, 35), (13, 35), (11, 34), (11, 35), (11, 33)]
+Valid neighbors after grid boundary check: [(12, 35), (11, 34), (11, 35), (11, 33)]
+Tip (ID: 4) at (12, 34) grew to (11, 33) with VEGF value: 0.408440697576734
+Previous position: (28, 36)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(27, 38), (28, 38), (26, 37), (26, 38), (26, 36)]
+Valid neighbors after grid boundary check: [(27, 38), (28, 38), (26, 37), (26, 38), (26, 36)]
+Tip (ID: 6) at (27, 37) grew to (26, 37) with VEGF value: 0.25643466691381284
+Tip positions after growth:
+  Vessel ID 1: position (10, 25), VEGF value: 0.3263
+  Vessel ID 2: position (35, 21), VEGF value: 0.3080
+  Vessel ID 3: position (19, 10), VEGF value: 0.2973
+  Vessel ID 4: position (11, 33), VEGF value: 0.3880
+  Vessel ID 6: position (26, 37), VEGF value: 0.2436
+
+--- Step 34/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (10, 25), VEGF value: 0.3263
+  Vessel ID 2: position (35, 21), VEGF value: 0.3080
+  Vessel ID 3: position (19, 10), VEGF value: 0.2973
+  Vessel ID 4: position (11, 33), VEGF value: 0.3880
+  Vessel ID 6: position (26, 37), VEGF value: 0.2436
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (10, 25), VEGF value: 0.3263
+  Vessel ID 2: position (35, 21), VEGF value: 0.3080
+  Vessel ID 3: position (19, 10), VEGF value: 0.2973
+  Vessel ID 4: position (11, 33), VEGF value: 0.3880
+  Vessel ID 6: position (26, 37), VEGF value: 0.2436
+
+--- Step 35/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (10, 25), VEGF value: 0.3263
+  Vessel ID 2: position (35, 21), VEGF value: 0.3080
+  Vessel ID 3: position (19, 10), VEGF value: 0.2973
+  Vessel ID 4: position (11, 33), VEGF value: 0.3880
+  Vessel ID 6: position (26, 37), VEGF value: 0.2436
+Growing vasculature...
+Previous position: (11, 25)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(10, 24), (10, 26), (9, 25), (9, 26), (9, 24)]
+Valid neighbors after grid boundary check: [(10, 24), (10, 26), (9, 25), (9, 26), (9, 24)]
+Tip (ID: 1) at (10, 25) grew to (9, 25) with VEGF value: 0.36459785859226523
+Previous position: (34, 21)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(35, 20), (35, 22), (34, 21), (34, 22), (34, 20)]
+Valid neighbors after grid boundary check: [(35, 20), (35, 22), (34, 20)]
+Tip (ID: 2) at (35, 21) grew to (35, 22) with VEGF value: 0.21804158101236723
+Previous position: (19, 9)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(19, 11), (20, 11), (20, 10), (18, 10), (18, 11)]
+Valid neighbors after grid boundary check: [(19, 11), (20, 11), (20, 10), (18, 10), (18, 11)]
+Tip (ID: 3) at (19, 10) grew to (18, 11) with VEGF value: 0.22420629222683514
+Previous position: (12, 34)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(11, 34), (11, 32), (10, 33), (10, 34), (10, 32)]
+Valid neighbors after grid boundary check: [(11, 34), (11, 32), (10, 33), (10, 34), (10, 32)]
+Tip (ID: 4) at (11, 33) grew to (10, 34) with VEGF value: 0.3992039925165291
+Previous position: (27, 37)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(26, 36), (26, 38), (25, 37), (25, 38), (25, 36)]
+Valid neighbors after grid boundary check: [(26, 36), (26, 38), (25, 37), (25, 38), (25, 36)]
+Tip (ID: 6) at (26, 37) grew to (25, 37) with VEGF value: 0.24881065612699105
+Tip positions after growth:
+  Vessel ID 1: position (9, 25), VEGF value: 0.3464
+  Vessel ID 2: position (35, 22), VEGF value: 0.2071
+  Vessel ID 3: position (18, 11), VEGF value: 0.2130
+  Vessel ID 4: position (10, 34), VEGF value: 0.3792
+  Vessel ID 6: position (25, 37), VEGF value: 0.2364
+
+--- Step 36/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (9, 25), VEGF value: 0.3464
+  Vessel ID 2: position (35, 22), VEGF value: 0.2071
+  Vessel ID 3: position (18, 11), VEGF value: 0.2130
+  Vessel ID 4: position (10, 34), VEGF value: 0.3792
+  Vessel ID 6: position (25, 37), VEGF value: 0.2364
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 6 at (25, 37) connecting to Vessel ID 4 at (24, 36)
+  Anastomosis between Tip 6 and Vessel 4
+Tip positions after growth:
+  Vessel ID 1: position (9, 25), VEGF value: 0.3464
+  Vessel ID 2: position (35, 22), VEGF value: 0.2071
+  Vessel ID 3: position (18, 11), VEGF value: 0.2130
+  Vessel ID 4: position (10, 34), VEGF value: 0.3792
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_36.png
+
+--- Step 37/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (9, 25), VEGF value: 0.3464
+  Vessel ID 2: position (35, 22), VEGF value: 0.2071
+  Vessel ID 3: position (18, 11), VEGF value: 0.2130
+  Vessel ID 4: position (10, 34), VEGF value: 0.3792
+Growing vasculature...
+Previous position: (10, 25)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(9, 24), (9, 26), (8, 25), (8, 26), (8, 24)]
+Valid neighbors after grid boundary check: [(9, 24), (9, 26), (8, 25), (8, 26), (8, 24)]
+Tip (ID: 1) at (9, 25) grew to (8, 25) with VEGF value: 0.35086493513651396
+Previous position: (35, 21)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(35, 23), (36, 23), (36, 22), (34, 22), (34, 23)]
+Valid neighbors after grid boundary check: [(36, 23), (36, 22), (34, 23)]
+Tip (ID: 2) at (35, 22) grew to (36, 22) with VEGF value: 0.17071853822542307
+Previous position: (19, 10)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(18, 12), (19, 12), (17, 11), (17, 12), (17, 10)]
+Valid neighbors after grid boundary check: [(18, 12), (19, 12), (17, 11), (17, 12), (17, 10)]
+Tip (ID: 3) at (18, 11) grew to (17, 12) with VEGF value: 0.35911775719439565
+Previous position: (11, 33)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(10, 35), (11, 35), (9, 34), (9, 35), (9, 33)]
+Valid neighbors after grid boundary check: [(10, 35), (11, 35), (9, 34), (9, 35), (9, 33)]
+Tip (ID: 4) at (10, 34) grew to (9, 34) with VEGF value: 0.3266297902416343
+Tip positions after growth:
+  Vessel ID 1: position (8, 25), VEGF value: 0.3333
+  Vessel ID 2: position (36, 22), VEGF value: 0.1622
+  Vessel ID 3: position (17, 12), VEGF value: 0.3412
+  Vessel ID 4: position (9, 34), VEGF value: 0.3103
+
+--- Step 38/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (8, 25), VEGF value: 0.3333
+  Vessel ID 2: position (36, 22), VEGF value: 0.1622
+  Vessel ID 3: position (17, 12), VEGF value: 0.3412
+  Vessel ID 4: position (9, 34), VEGF value: 0.3103
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (8, 25), VEGF value: 0.3333
+  Vessel ID 2: position (36, 22), VEGF value: 0.1622
+  Vessel ID 3: position (17, 12), VEGF value: 0.3412
+  Vessel ID 4: position (9, 34), VEGF value: 0.3103
+
+--- Step 39/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (8, 25), VEGF value: 0.3333
+  Vessel ID 2: position (36, 22), VEGF value: 0.1622
+  Vessel ID 3: position (17, 12), VEGF value: 0.3412
+  Vessel ID 4: position (9, 34), VEGF value: 0.3103
+Growing vasculature...
+Previous position: (9, 25)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(8, 24), (8, 26), (7, 25), (7, 26), (7, 24)]
+Valid neighbors after grid boundary check: [(8, 24), (8, 26), (7, 25), (7, 26), (7, 24)]
+Tip (ID: 1) at (8, 25) grew to (7, 24) with VEGF value: 0.2908380183301299
+Previous position: (35, 22)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(36, 21), (36, 23), (35, 22), (35, 23), (35, 21)]
+Valid neighbors after grid boundary check: [(36, 21), (36, 23)]
+Tip (ID: 2) at (36, 22) grew to (36, 23) with VEGF value: 0.09322934788152065
+Previous position: (18, 11)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(17, 13), (18, 13), (16, 12), (16, 13), (16, 11)]
+Valid neighbors after grid boundary check: [(17, 13), (18, 13), (16, 12), (16, 13), (16, 11)]
+Tip (ID: 3) at (17, 12) grew to (18, 13) with VEGF value: 0.313149633191754
+Previous position: (10, 34)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(9, 33), (9, 35), (8, 34), (8, 35), (8, 33)]
+Valid neighbors after grid boundary check: [(9, 33), (9, 35), (8, 34), (8, 35), (8, 33)]
+Tip (ID: 4) at (9, 34) grew to (8, 34) with VEGF value: 0.3591736855539578
+Tip positions after growth:
+  Vessel ID 1: position (7, 24), VEGF value: 0.2763
+  Vessel ID 2: position (36, 23), VEGF value: 0.0886
+  Vessel ID 3: position (18, 13), VEGF value: 0.2975
+  Vessel ID 4: position (8, 34), VEGF value: 0.3412
+
+--- Step 40/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 24), VEGF value: 0.2763
+  Vessel ID 2: position (36, 23), VEGF value: 0.0886
+  Vessel ID 3: position (18, 13), VEGF value: 0.2975
+  Vessel ID 4: position (8, 34), VEGF value: 0.3412
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (7, 24), VEGF value: 0.2763
+  Vessel ID 2: position (36, 23), VEGF value: 0.0886
+  Vessel ID 3: position (18, 13), VEGF value: 0.2975
+  Vessel ID 4: position (8, 34), VEGF value: 0.3412
+
+--- Step 41/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 24), VEGF value: 0.2763
+  Vessel ID 2: position (36, 23), VEGF value: 0.0886
+  Vessel ID 3: position (18, 13), VEGF value: 0.2975
+  Vessel ID 4: position (8, 34), VEGF value: 0.3412
+Growing vasculature...
+Previous position: (8, 25)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(7, 25), (7, 23), (6, 24), (6, 25), (6, 23)]
+Valid neighbors after grid boundary check: [(7, 25), (7, 23), (6, 24), (6, 25), (6, 23)]
+Tip (ID: 1) at (7, 24) grew to (7, 23) with VEGF value: 0.2178205164428941
+Previous position: (36, 22)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(36, 24), (37, 24), (37, 23), (35, 23), (35, 24)]
+Valid neighbors after grid boundary check: [(37, 24), (35, 24)]
+Tip (ID: 2) at (36, 23) grew to (35, 24) with VEGF value: 0.1790688560466622
+Previous position: (17, 12)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(19, 13), (19, 14), (19, 12), (18, 14), (18, 12)]
+Valid neighbors after grid boundary check: [(19, 13), (19, 14), (19, 12), (18, 14), (18, 12)]
+Tip (ID: 3) at (18, 13) grew to (19, 13) with VEGF value: 0.29987008917931063
+Previous position: (9, 34)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(8, 33), (8, 35), (7, 34), (7, 35), (7, 33)]
+Valid neighbors after grid boundary check: [(8, 33), (8, 35), (7, 34), (7, 35), (7, 33)]
+Tip (ID: 4) at (8, 34) grew to (7, 33) with VEGF value: 0.35589036842431
+Tip positions after growth:
+  Vessel ID 1: position (7, 23), VEGF value: 0.2069
+  Vessel ID 2: position (35, 24), VEGF value: 0.1701
+  Vessel ID 3: position (19, 13), VEGF value: 0.2849
+  Vessel ID 4: position (7, 33), VEGF value: 0.3381
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_41.png
+
+--- Step 42/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 23), VEGF value: 0.2069
+  Vessel ID 2: position (35, 24), VEGF value: 0.1701
+  Vessel ID 3: position (19, 13), VEGF value: 0.2849
+  Vessel ID 4: position (7, 33), VEGF value: 0.3381
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (7, 23), VEGF value: 0.2069
+  Vessel ID 2: position (35, 24), VEGF value: 0.1701
+  Vessel ID 3: position (19, 13), VEGF value: 0.2849
+  Vessel ID 4: position (7, 33), VEGF value: 0.3381
+
+--- Step 43/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 23), VEGF value: 0.2069
+  Vessel ID 2: position (35, 24), VEGF value: 0.1701
+  Vessel ID 3: position (19, 13), VEGF value: 0.2849
+  Vessel ID 4: position (7, 33), VEGF value: 0.3381
+Growing vasculature...
+Previous position: (7, 24)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(7, 22), (8, 22), (8, 23), (6, 23), (6, 22)]
+Valid neighbors after grid boundary check: [(7, 22), (8, 22), (8, 23), (6, 23), (6, 22)]
+Tip (ID: 1) at (7, 23) grew to (8, 23) with VEGF value: 0.3275407124521589
+Previous position: (36, 23)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(35, 25), (36, 25), (34, 24), (34, 25), (34, 23)]
+Valid neighbors after grid boundary check: [(36, 25), (34, 24), (34, 23)]
+Tip (ID: 2) at (35, 24) grew to (36, 25) with VEGF value: 0.10415495375395672
+Previous position: (18, 13)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(19, 12), (19, 14), (18, 13), (18, 14), (18, 12)]
+Valid neighbors after grid boundary check: [(19, 12), (19, 14), (18, 14), (18, 12)]
+Tip (ID: 3) at (19, 13) grew to (19, 12) with VEGF value: 0.1783170246228272
+Previous position: (8, 34)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(7, 34), (7, 32), (6, 33), (6, 34), (6, 32)]
+Valid neighbors after grid boundary check: [(7, 34), (7, 32), (6, 33), (6, 34), (6, 32)]
+Tip (ID: 4) at (7, 33) grew to (6, 34) with VEGF value: 0.08737657588331567
+Tip positions after growth:
+  Vessel ID 1: position (8, 23), VEGF value: 0.3112
+  Vessel ID 2: position (36, 25), VEGF value: 0.0989
+  Vessel ID 3: position (19, 12), VEGF value: 0.1694
+  Vessel ID 4: position (6, 34), VEGF value: 0.0830
+
+--- Step 44/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (8, 23), VEGF value: 0.3112
+  Vessel ID 2: position (36, 25), VEGF value: 0.0989
+  Vessel ID 3: position (19, 12), VEGF value: 0.1694
+  Vessel ID 4: position (6, 34), VEGF value: 0.0830
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (8, 23), VEGF value: 0.3112
+  Vessel ID 2: position (36, 25), VEGF value: 0.0989
+  Vessel ID 3: position (19, 12), VEGF value: 0.1694
+  Vessel ID 4: position (6, 34), VEGF value: 0.0830
+
+--- Step 45/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (8, 23), VEGF value: 0.3112
+  Vessel ID 2: position (36, 25), VEGF value: 0.0989
+  Vessel ID 3: position (19, 12), VEGF value: 0.1694
+  Vessel ID 4: position (6, 34), VEGF value: 0.0830
+Growing vasculature...
+Previous position: (7, 23)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(8, 22), (8, 24), (7, 23), (7, 24), (7, 22)]
+Valid neighbors after grid boundary check: [(8, 22), (8, 24), (7, 22)]
+Tip (ID: 1) at (8, 23) grew to (7, 22) with VEGF value: 0.2157283890879986
+Previous position: (35, 24)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(37, 25), (37, 26), (37, 24), (36, 26), (36, 24)]
+Valid neighbors after grid boundary check: [(37, 26), (37, 24)]
+Tip (ID: 2) at (36, 25) grew to (37, 24) with VEGF value: 0.04195666367148866
+Previous position: (19, 13)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(19, 11), (20, 11), (20, 12), (18, 12), (18, 11)]
+Valid neighbors after grid boundary check: [(19, 11), (20, 11), (20, 12), (18, 12)]
+Tip (ID: 3) at (19, 12) grew to (20, 11) with VEGF value: 0.15160484629090837
+Previous position: (7, 33)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(6, 35), (7, 35), (5, 34), (5, 35), (5, 33)]
+Valid neighbors after grid boundary check: [(6, 35), (7, 35), (5, 34), (5, 35), (5, 33)]
+Tip (ID: 4) at (6, 34) grew to (7, 35) with VEGF value: 0.28190227322343187
+Tip positions after growth:
+  Vessel ID 1: position (7, 22), VEGF value: 0.2049
+  Vessel ID 2: position (37, 24), VEGF value: 0.0399
+  Vessel ID 3: position (20, 11), VEGF value: 0.1440
+  Vessel ID 4: position (7, 35), VEGF value: 0.2678
+
+--- Step 46/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 22), VEGF value: 0.2049
+  Vessel ID 2: position (37, 24), VEGF value: 0.0399
+  Vessel ID 3: position (20, 11), VEGF value: 0.1440
+  Vessel ID 4: position (7, 35), VEGF value: 0.2678
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (7, 22), VEGF value: 0.2049
+  Vessel ID 2: position (37, 24), VEGF value: 0.0399
+  Vessel ID 3: position (20, 11), VEGF value: 0.1440
+  Vessel ID 4: position (7, 35), VEGF value: 0.2678
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_46.png
+
+--- Step 47/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 22), VEGF value: 0.2049
+  Vessel ID 2: position (37, 24), VEGF value: 0.0399
+  Vessel ID 3: position (20, 11), VEGF value: 0.1440
+  Vessel ID 4: position (7, 35), VEGF value: 0.2678
+Growing vasculature...
+Previous position: (8, 23)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(7, 23), (7, 21), (6, 22), (6, 23), (6, 21)]
+Valid neighbors after grid boundary check: [(7, 21), (6, 22), (6, 23), (6, 21)]
+Tip (ID: 1) at (7, 22) grew to (6, 22) with VEGF value: 0.2747050766313445
+Previous position: (36, 25)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(38, 24), (38, 25), (38, 23), (37, 25), (37, 23)]
+Valid neighbors after grid boundary check: [(38, 23)]
+Tip (ID: 2) at (37, 24) grew to (38, 23) with VEGF value: 0.254858267673869
+Previous position: (19, 12)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(21, 11), (21, 12), (21, 10), (20, 12), (20, 10)]
+Valid neighbors after grid boundary check: [(21, 11), (21, 12), (21, 10), (20, 12), (20, 10)]
+Tip (ID: 3) at (20, 11) grew to (21, 11) with VEGF value: 0.3012478051781875
+Previous position: (6, 34)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(8, 35), (8, 36), (8, 34), (7, 36), (7, 34)]
+Valid neighbors after grid boundary check: [(8, 35), (8, 36), (7, 36), (7, 34)]
+Tip (ID: 4) at (7, 35) grew to (8, 36) with VEGF value: 0.24817910690532097
+Tip positions after growth:
+  Vessel ID 1: position (6, 22), VEGF value: 0.2610
+  Vessel ID 2: position (38, 23), VEGF value: 0.2421
+  Vessel ID 3: position (21, 11), VEGF value: 0.2862
+  Vessel ID 4: position (8, 36), VEGF value: 0.2358
+
+--- Step 48/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 22), VEGF value: 0.2610
+  Vessel ID 2: position (38, 23), VEGF value: 0.2421
+  Vessel ID 3: position (21, 11), VEGF value: 0.2862
+  Vessel ID 4: position (8, 36), VEGF value: 0.2358
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (6, 22), VEGF value: 0.2610
+  Vessel ID 2: position (38, 23), VEGF value: 0.2421
+  Vessel ID 3: position (21, 11), VEGF value: 0.2862
+  Vessel ID 4: position (8, 36), VEGF value: 0.2358
+
+--- Step 49/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 22), VEGF value: 0.2610
+  Vessel ID 2: position (38, 23), VEGF value: 0.2421
+  Vessel ID 3: position (21, 11), VEGF value: 0.2862
+  Vessel ID 4: position (8, 36), VEGF value: 0.2358
+Growing vasculature...
+Previous position: (7, 22)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(6, 21), (6, 23), (5, 22), (5, 23), (5, 21)]
+Valid neighbors after grid boundary check: [(6, 21), (6, 23), (5, 22), (5, 23), (5, 21)]
+Tip (ID: 1) at (6, 22) grew to (6, 21) with VEGF value: 0.23159435230506728
+Previous position: (37, 24)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(39, 23), (39, 24), (39, 22), (38, 24), (38, 22)]
+Valid neighbors after grid boundary check: [(39, 23), (39, 24), (39, 22), (38, 22)]
+Tip (ID: 2) at (38, 23) grew to (38, 22) with VEGF value: 0.2056338121919458
+Previous position: (20, 11)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(21, 10), (21, 12), (20, 11), (20, 12), (20, 10)]
+Valid neighbors after grid boundary check: [(21, 10), (21, 12), (20, 12), (20, 10)]
+Tip (ID: 3) at (21, 11) grew to (21, 12) with VEGF value: 0.19153209247783484
+Previous position: (7, 35)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(9, 36), (9, 37), (9, 35), (8, 37), (8, 35)]
+Valid neighbors after grid boundary check: [(9, 36), (9, 37), (9, 35), (8, 37), (8, 35)]
+Tip (ID: 4) at (8, 36) grew to (8, 37) with VEGF value: 0.23266101941664716
+Tip positions after growth:
+  Vessel ID 1: position (6, 21), VEGF value: 0.2200
+  Vessel ID 2: position (38, 22), VEGF value: 0.1954
+  Vessel ID 3: position (21, 12), VEGF value: 0.1820
+  Vessel ID 4: position (8, 37), VEGF value: 0.2210
+
+--- Step 50/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 21), VEGF value: 0.2200
+  Vessel ID 2: position (38, 22), VEGF value: 0.1954
+  Vessel ID 3: position (21, 12), VEGF value: 0.1820
+  Vessel ID 4: position (8, 37), VEGF value: 0.2210
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (6, 21), VEGF value: 0.2200
+  Vessel ID 2: position (38, 22), VEGF value: 0.1954
+  Vessel ID 3: position (21, 12), VEGF value: 0.1820
+  Vessel ID 4: position (8, 37), VEGF value: 0.2210
+
+--- Step 51/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 21), VEGF value: 0.2200
+  Vessel ID 2: position (38, 22), VEGF value: 0.1954
+  Vessel ID 3: position (21, 12), VEGF value: 0.1820
+  Vessel ID 4: position (8, 37), VEGF value: 0.2210
+Growing vasculature...
+Previous position: (6, 22)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(6, 20), (7, 20), (7, 21), (5, 21), (5, 20)]
+Valid neighbors after grid boundary check: [(6, 20), (7, 20), (7, 21), (5, 21), (5, 20)]
+Tip (ID: 1) at (6, 21) grew to (5, 21) with VEGF value: 0.21158688728855518
+Previous position: (38, 23)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(38, 21), (39, 21), (39, 22), (37, 22), (37, 21)]
+Valid neighbors after grid boundary check: [(38, 21), (39, 21), (39, 22), (37, 22), (37, 21)]
+Tip (ID: 2) at (38, 22) grew to (38, 21) with VEGF value: 0.2764890351416949
+Previous position: (21, 11)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(21, 13), (22, 13), (22, 12), (20, 12), (20, 13)]
+Valid neighbors after grid boundary check: [(21, 13), (22, 13), (22, 12), (20, 12), (20, 13)]
+Tip (ID: 3) at (21, 12) grew to (20, 13) with VEGF value: 0.19021048133852783
+Previous position: (8, 36)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(8, 38), (9, 38), (9, 37), (7, 37), (7, 38)]
+Valid neighbors after grid boundary check: [(8, 38), (9, 38), (9, 37), (7, 37), (7, 38)]
+Tip (ID: 4) at (8, 37) grew to (9, 38) with VEGF value: 0.14746785065234977
+Tip positions after growth:
+  Vessel ID 1: position (5, 21), VEGF value: 0.2010
+  Vessel ID 2: position (38, 21), VEGF value: 0.2627
+  Vessel ID 3: position (20, 13), VEGF value: 0.1807
+  Vessel ID 4: position (9, 38), VEGF value: 0.1401
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_51.png
+
+--- Step 52/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (5, 21), VEGF value: 0.2010
+  Vessel ID 2: position (38, 21), VEGF value: 0.2627
+  Vessel ID 3: position (20, 13), VEGF value: 0.1807
+  Vessel ID 4: position (9, 38), VEGF value: 0.1401
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (5, 21), VEGF value: 0.2010
+  Vessel ID 2: position (38, 21), VEGF value: 0.2627
+  Vessel ID 3: position (20, 13), VEGF value: 0.1807
+  Vessel ID 4: position (9, 38), VEGF value: 0.1401
+
+--- Step 53/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (5, 21), VEGF value: 0.2010
+  Vessel ID 2: position (38, 21), VEGF value: 0.2627
+  Vessel ID 3: position (20, 13), VEGF value: 0.1807
+  Vessel ID 4: position (9, 38), VEGF value: 0.1401
+Growing vasculature...
+Previous position: (6, 21)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(5, 20), (5, 22), (4, 21), (4, 22), (4, 20)]
+Valid neighbors after grid boundary check: [(5, 20), (5, 22), (4, 21), (4, 22), (4, 20)]
+Tip (ID: 1) at (5, 21) grew to (4, 21) with VEGF value: 0.17539912835630908
+Previous position: (38, 22)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(38, 20), (39, 20), (39, 21), (37, 21), (37, 20)]
+Valid neighbors after grid boundary check: [(38, 20), (39, 20), (39, 21), (37, 21), (37, 20)]
+Tip (ID: 2) at (38, 21) grew to (39, 20) with VEGF value: 0.24428803661112433
+Previous position: (21, 12)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(20, 14), (21, 14), (19, 13), (19, 14), (19, 12)]
+Valid neighbors after grid boundary check: [(20, 14), (21, 14), (19, 14)]
+Tip (ID: 3) at (20, 13) grew to (21, 14) with VEGF value: 0.2057312592568747
+Previous position: (8, 37)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(10, 38), (10, 39), (10, 37), (9, 39), (9, 37)]
+Valid neighbors after grid boundary check: [(10, 38), (10, 39), (10, 37), (9, 39), (9, 37)]
+Tip (ID: 4) at (9, 38) grew to (10, 37) with VEGF value: 0.15892046425119818
+Tip positions after growth:
+  Vessel ID 1: position (4, 21), VEGF value: 0.1666
+  Vessel ID 2: position (39, 20), VEGF value: 0.2321
+  Vessel ID 3: position (21, 14), VEGF value: 0.1954
+  Vessel ID 4: position (10, 37), VEGF value: 0.1510
+
+--- Step 54/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 21), VEGF value: 0.1666
+  Vessel ID 2: position (39, 20), VEGF value: 0.2321
+  Vessel ID 3: position (21, 14), VEGF value: 0.1954
+  Vessel ID 4: position (10, 37), VEGF value: 0.1510
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (4, 21), VEGF value: 0.1666
+  Vessel ID 2: position (39, 20), VEGF value: 0.2321
+  Vessel ID 3: position (21, 14), VEGF value: 0.1954
+  Vessel ID 4: position (10, 37), VEGF value: 0.1510
+
+--- Step 55/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 21), VEGF value: 0.1666
+  Vessel ID 2: position (39, 20), VEGF value: 0.2321
+  Vessel ID 3: position (21, 14), VEGF value: 0.1954
+  Vessel ID 4: position (10, 37), VEGF value: 0.1510
+Growing vasculature...
+Previous position: (5, 21)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(4, 20), (4, 22), (3, 21), (3, 22), (3, 20)]
+Valid neighbors after grid boundary check: [(4, 20), (4, 22), (3, 21), (3, 22), (3, 20)]
+Tip (ID: 1) at (4, 21) grew to (3, 21) with VEGF value: 0.1526706401380015
+Previous position: (38, 21)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(40, 20), (40, 21), (40, 19), (39, 21), (39, 19)]
+Valid neighbors after grid boundary check: [(39, 21), (39, 19)]
+Tip (ID: 2) at (39, 20) grew to (39, 21) with VEGF value: 0.22457788706461382
+Previous position: (20, 13)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(22, 14), (22, 15), (22, 13), (21, 15), (21, 13)]
+Valid neighbors after grid boundary check: [(22, 14), (22, 15), (22, 13), (21, 15), (21, 13)]
+Tip (ID: 3) at (21, 14) grew to (22, 14) with VEGF value: 0.18333069273887234
+Previous position: (9, 38)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(11, 37), (11, 38), (11, 36), (10, 38), (10, 36)]
+Valid neighbors after grid boundary check: [(11, 37), (11, 38), (11, 36), (10, 38), (10, 36)]
+Tip (ID: 4) at (10, 37) grew to (11, 37) with VEGF value: 0.10089478202603369
+Tip positions after growth:
+  Vessel ID 1: position (3, 21), VEGF value: 0.1450
+  Vessel ID 2: position (39, 21), VEGF value: 0.2133
+  Vessel ID 3: position (22, 14), VEGF value: 0.1742
+  Vessel ID 4: position (11, 37), VEGF value: 0.0959
+
+--- Step 56/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 21), VEGF value: 0.1450
+  Vessel ID 2: position (39, 21), VEGF value: 0.2133
+  Vessel ID 3: position (22, 14), VEGF value: 0.1742
+  Vessel ID 4: position (11, 37), VEGF value: 0.0959
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 21), VEGF value: 0.1450
+  Vessel ID 2: position (39, 21), VEGF value: 0.2133
+  Vessel ID 3: position (22, 14), VEGF value: 0.1742
+  Vessel ID 4: position (11, 37), VEGF value: 0.0959
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_56.png
+
+--- Step 57/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 21), VEGF value: 0.1450
+  Vessel ID 2: position (39, 21), VEGF value: 0.2133
+  Vessel ID 3: position (22, 14), VEGF value: 0.1742
+  Vessel ID 4: position (11, 37), VEGF value: 0.0959
+Growing vasculature...
+Previous position: (4, 21)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(3, 20), (3, 22), (2, 21), (2, 22), (2, 20)]
+Valid neighbors after grid boundary check: [(3, 20), (3, 22), (2, 21), (2, 22), (2, 20)]
+Tip (ID: 1) at (3, 21) grew to (2, 20) with VEGF value: 0.18011399144721307
+Previous position: (39, 20)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 22), (40, 22), (40, 21), (38, 21), (38, 22)]
+Valid neighbors after grid boundary check: [(39, 22)]
+Tip (ID: 2) at (39, 21) grew to (39, 22) with VEGF value: 0.050797539581930014
+Previous position: (21, 14)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(22, 13), (22, 15), (21, 14), (21, 15), (21, 13)]
+Valid neighbors after grid boundary check: [(22, 13), (22, 15), (21, 15), (21, 13)]
+Tip (ID: 3) at (22, 14) grew to (21, 15) with VEGF value: 0.14931037476536402
+Previous position: (10, 37)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(11, 36), (11, 38), (10, 37), (10, 38), (10, 36)]
+Valid neighbors after grid boundary check: [(11, 36), (11, 38), (10, 38), (10, 36)]
+Tip (ID: 4) at (11, 37) grew to (11, 38) with VEGF value: 0.09424986397001364
+Tip positions after growth:
+  Vessel ID 1: position (2, 20), VEGF value: 0.1711
+  Vessel ID 2: position (39, 22), VEGF value: 0.0483
+  Vessel ID 3: position (21, 15), VEGF value: 0.1418
+  Vessel ID 4: position (11, 38), VEGF value: 0.0895
+
+--- Step 58/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 20), VEGF value: 0.1711
+  Vessel ID 2: position (39, 22), VEGF value: 0.0483
+  Vessel ID 3: position (21, 15), VEGF value: 0.1418
+  Vessel ID 4: position (11, 38), VEGF value: 0.0895
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 20), VEGF value: 0.1711
+  Vessel ID 2: position (39, 22), VEGF value: 0.0483
+  Vessel ID 3: position (21, 15), VEGF value: 0.1418
+  Vessel ID 4: position (11, 38), VEGF value: 0.0895
+
+--- Step 59/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 20), VEGF value: 0.1711
+  Vessel ID 2: position (39, 22), VEGF value: 0.0483
+  Vessel ID 3: position (21, 15), VEGF value: 0.1418
+  Vessel ID 4: position (11, 38), VEGF value: 0.0895
+Growing vasculature...
+Previous position: (3, 21)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(2, 21), (2, 19), (1, 20), (1, 21), (1, 19)]
+Valid neighbors after grid boundary check: [(2, 21), (2, 19), (1, 20), (1, 21), (1, 19)]
+Tip (ID: 1) at (2, 20) grew to (2, 19) with VEGF value: 0.19110282845062515
+Previous position: (39, 21)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 23), (40, 23), (40, 22), (38, 22), (38, 23)]
+Valid neighbors after grid boundary check: [(39, 23)]
+Tip (ID: 2) at (39, 22) grew to (39, 23) with VEGF value: 0.12440348803803279
+Previous position: (22, 14)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(21, 16), (22, 16), (20, 15), (20, 16), (20, 14)]
+Valid neighbors after grid boundary check: [(21, 16), (22, 16), (20, 15), (20, 16), (20, 14)]
+Tip (ID: 3) at (21, 15) grew to (22, 16) with VEGF value: 0.2093979868525171
+Previous position: (11, 37)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(11, 39), (12, 39), (12, 38), (10, 38), (10, 39)]
+Valid neighbors after grid boundary check: [(11, 39), (12, 39), (12, 38), (10, 38), (10, 39)]
+Tip (ID: 4) at (11, 38) grew to (12, 39) with VEGF value: 0.16455347660509265
+Tip positions after growth:
+  Vessel ID 1: position (2, 19), VEGF value: 0.1815
+  Vessel ID 2: position (39, 23), VEGF value: 0.1182
+  Vessel ID 3: position (22, 16), VEGF value: 0.1989
+  Vessel ID 4: position (12, 39), VEGF value: 0.1563
+
+--- Step 60/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 19), VEGF value: 0.1815
+  Vessel ID 2: position (39, 23), VEGF value: 0.1182
+  Vessel ID 3: position (22, 16), VEGF value: 0.1989
+  Vessel ID 4: position (12, 39), VEGF value: 0.1563
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 3 at (22, 16) connecting to Vessel ID 5 at (23, 17)
+  Anastomosis between Tip 3 and Vessel 5
+Tip positions after growth:
+  Vessel ID 1: position (2, 19), VEGF value: 0.1815
+  Vessel ID 2: position (39, 23), VEGF value: 0.1182
+  Vessel ID 4: position (12, 39), VEGF value: 0.1563
+
+--- Step 61/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 19), VEGF value: 0.1815
+  Vessel ID 2: position (39, 23), VEGF value: 0.1182
+  Vessel ID 4: position (12, 39), VEGF value: 0.1563
+Growing vasculature...
+Previous position: (2, 20)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(2, 18), (3, 18), (3, 19), (1, 19), (1, 18)]
+Valid neighbors after grid boundary check: [(2, 18), (3, 18), (3, 19), (1, 19), (1, 18)]
+Tip (ID: 1) at (2, 19) grew to (3, 19) with VEGF value: 0.16784817147408182
+Previous position: (39, 22)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 24), (40, 24), (40, 23), (38, 23), (38, 24)]
+Valid neighbors after grid boundary check: [(39, 24)]
+Tip (ID: 2) at (39, 23) grew to (39, 24) with VEGF value: 0.1168889408413834
+Previous position: (11, 38)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(13, 39), (13, 40), (13, 38), (12, 40), (12, 38)]
+Valid neighbors after grid boundary check: [(13, 39), (13, 38), (12, 38)]
+Tip (ID: 4) at (12, 39) grew to (13, 38) with VEGF value: 0.12226690141213156
+Tip positions after growth:
+  Vessel ID 1: position (3, 19), VEGF value: 0.1595
+  Vessel ID 2: position (39, 24), VEGF value: 0.1110
+  Vessel ID 4: position (13, 38), VEGF value: 0.1162
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_61.png
+
+--- Step 62/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 19), VEGF value: 0.1595
+  Vessel ID 2: position (39, 24), VEGF value: 0.1110
+  Vessel ID 4: position (13, 38), VEGF value: 0.1162
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 19), VEGF value: 0.1595
+  Vessel ID 2: position (39, 24), VEGF value: 0.1110
+  Vessel ID 4: position (13, 38), VEGF value: 0.1162
+
+--- Step 63/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 19), VEGF value: 0.1595
+  Vessel ID 2: position (39, 24), VEGF value: 0.1110
+  Vessel ID 4: position (13, 38), VEGF value: 0.1162
+Growing vasculature...
+Previous position: (2, 19)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(3, 18), (3, 20), (2, 19), (2, 20), (2, 18)]
+Valid neighbors after grid boundary check: [(3, 18), (3, 20), (2, 18)]
+Tip (ID: 1) at (3, 19) grew to (2, 18) with VEGF value: 0.11887313723768836
+Previous position: (39, 23)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 25), (40, 25), (40, 24), (38, 24), (38, 25)]
+Valid neighbors after grid boundary check: [(39, 25)]
+Tip (ID: 2) at (39, 24) grew to (39, 25) with VEGF value: 0.009727250514537513
+Previous position: (12, 39)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(14, 38), (14, 39), (14, 37), (13, 39), (13, 37)]
+Valid neighbors after grid boundary check: [(14, 38), (14, 39), (14, 37), (13, 39), (13, 37)]
+Tip (ID: 4) at (13, 38) grew to (14, 39) with VEGF value: 0.1832446866146433
+Tip positions after growth:
+  Vessel ID 1: position (2, 18), VEGF value: 0.1129
+  Vessel ID 2: position (39, 25), VEGF value: 0.0092
+  Vessel ID 4: position (14, 39), VEGF value: 0.1741
+
+--- Step 64/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 18), VEGF value: 0.1129
+  Vessel ID 2: position (39, 25), VEGF value: 0.0092
+  Vessel ID 4: position (14, 39), VEGF value: 0.1741
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 18), VEGF value: 0.1129
+  Vessel ID 2: position (39, 25), VEGF value: 0.0092
+  Vessel ID 4: position (14, 39), VEGF value: 0.1741
+
+--- Step 65/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 18), VEGF value: 0.1129
+  Vessel ID 2: position (39, 25), VEGF value: 0.0092
+  Vessel ID 4: position (14, 39), VEGF value: 0.1741
+Growing vasculature...
+Previous position: (3, 19)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(2, 19), (2, 17), (1, 18), (1, 19), (1, 17)]
+Valid neighbors after grid boundary check: [(2, 17), (1, 18), (1, 19), (1, 17)]
+Tip (ID: 1) at (2, 18) grew to (2, 17) with VEGF value: 0.16451562696369396
+Previous position: (39, 24)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 26), (40, 26), (40, 25), (38, 25), (38, 26)]
+Valid neighbors after grid boundary check: [(39, 26), (38, 26)]
+Tip (ID: 2) at (39, 25) grew to (39, 26) with VEGF value: 0.07922546544987438
+Previous position: (13, 38)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(15, 39), (15, 40), (15, 38), (14, 40), (14, 38)]
+Valid neighbors after grid boundary check: [(15, 39), (15, 38), (14, 38)]
+Tip (ID: 4) at (14, 39) grew to (15, 38) with VEGF value: 0.11929590703906309
+Tip positions after growth:
+  Vessel ID 1: position (2, 17), VEGF value: 0.1563
+  Vessel ID 2: position (39, 26), VEGF value: 0.0753
+  Vessel ID 4: position (15, 38), VEGF value: 0.1133
+
+--- Step 66/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 17), VEGF value: 0.1563
+  Vessel ID 2: position (39, 26), VEGF value: 0.0753
+  Vessel ID 4: position (15, 38), VEGF value: 0.1133
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 17), VEGF value: 0.1563
+  Vessel ID 2: position (39, 26), VEGF value: 0.0753
+  Vessel ID 4: position (15, 38), VEGF value: 0.1133
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_66.png
+
+--- Step 67/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 17), VEGF value: 0.1563
+  Vessel ID 2: position (39, 26), VEGF value: 0.0753
+  Vessel ID 4: position (15, 38), VEGF value: 0.1133
+Growing vasculature...
+Previous position: (2, 18)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(2, 16), (3, 16), (3, 17), (1, 17), (1, 16)]
+Valid neighbors after grid boundary check: [(2, 16), (3, 16), (3, 17), (1, 17), (1, 16)]
+Tip (ID: 1) at (2, 17) grew to (2, 16) with VEGF value: 0.17772632030433416
+Previous position: (39, 25)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 27), (40, 27), (40, 26), (38, 26), (38, 27)]
+Valid neighbors after grid boundary check: [(39, 27), (38, 26), (38, 27)]
+Tip (ID: 2) at (39, 26) grew to (39, 27) with VEGF value: 0.14352844401719142
+Previous position: (14, 39)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(16, 38), (16, 39), (16, 37), (15, 39), (15, 37)]
+Valid neighbors after grid boundary check: [(16, 38), (16, 39), (15, 39)]
+Tip (ID: 4) at (15, 38) grew to (16, 39) with VEGF value: 0.14895753678372176
+Tip positions after growth:
+  Vessel ID 1: position (2, 16), VEGF value: 0.1688
+  Vessel ID 2: position (39, 27), VEGF value: 0.1364
+  Vessel ID 4: position (16, 39), VEGF value: 0.1415
+
+--- Step 68/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 16), VEGF value: 0.1688
+  Vessel ID 2: position (39, 27), VEGF value: 0.1364
+  Vessel ID 4: position (16, 39), VEGF value: 0.1415
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 16), VEGF value: 0.1688
+  Vessel ID 2: position (39, 27), VEGF value: 0.1364
+  Vessel ID 4: position (16, 39), VEGF value: 0.1415
+
+--- Step 69/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 16), VEGF value: 0.1688
+  Vessel ID 2: position (39, 27), VEGF value: 0.1364
+  Vessel ID 4: position (16, 39), VEGF value: 0.1415
+Growing vasculature...
+Previous position: (2, 17)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(2, 15), (3, 15), (3, 16), (1, 16), (1, 15)]
+Valid neighbors after grid boundary check: [(2, 15), (3, 15), (3, 16), (1, 16), (1, 15)]
+Tip (ID: 1) at (2, 16) grew to (3, 15) with VEGF value: 0.1227896070092828
+Previous position: (39, 26)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 28), (40, 28), (40, 27), (38, 27), (38, 28)]
+Valid neighbors after grid boundary check: [(39, 28), (38, 27), (38, 28)]
+Tip (ID: 2) at (39, 27) grew to (38, 28) with VEGF value: 0.1626741497558095
+Previous position: (15, 38)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(17, 39), (17, 40), (17, 38), (16, 40), (16, 38)]
+Valid neighbors after grid boundary check: [(17, 39), (16, 38)]
+Tip (ID: 4) at (16, 39) grew to (16, 38) with VEGF value: 0.07272301388973655
+Tip positions after growth:
+  Vessel ID 1: position (3, 15), VEGF value: 0.1167
+  Vessel ID 2: position (38, 28), VEGF value: 0.1545
+  Vessel ID 4: position (16, 38), VEGF value: 0.0691
+
+--- Step 70/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 15), VEGF value: 0.1167
+  Vessel ID 2: position (38, 28), VEGF value: 0.1545
+  Vessel ID 4: position (16, 38), VEGF value: 0.0691
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 15), VEGF value: 0.1167
+  Vessel ID 2: position (38, 28), VEGF value: 0.1545
+  Vessel ID 4: position (16, 38), VEGF value: 0.0691
+
+--- Step 71/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 15), VEGF value: 0.1167
+  Vessel ID 2: position (38, 28), VEGF value: 0.1545
+  Vessel ID 4: position (16, 38), VEGF value: 0.0691
+Growing vasculature...
+Previous position: (2, 16)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(4, 15), (4, 16), (4, 14), (3, 16), (3, 14)]
+Valid neighbors after grid boundary check: [(4, 15), (4, 16), (4, 14), (3, 16), (3, 14)]
+Tip (ID: 1) at (3, 15) grew to (4, 15) with VEGF value: 0.1467544702734378
+Previous position: (39, 27)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(38, 29), (39, 29), (37, 28), (37, 29), (37, 27)]
+Valid neighbors after grid boundary check: [(38, 29), (39, 29), (37, 28), (37, 29), (37, 27)]
+Tip (ID: 2) at (38, 28) grew to (39, 29) with VEGF value: 0.14645823832574814
+Previous position: (16, 39)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(16, 37), (17, 37), (17, 38), (15, 38), (15, 37)]
+Valid neighbors after grid boundary check: [(17, 37)]
+Tip (ID: 4) at (16, 38) grew to (17, 37) with VEGF value: 0.07121526497499951
+Tip positions after growth:
+  Vessel ID 1: position (4, 15), VEGF value: 0.1394
+  Vessel ID 2: position (39, 29), VEGF value: 0.1391
+  Vessel ID 4: position (17, 37), VEGF value: 0.0677
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_71.png
+
+--- Step 72/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 15), VEGF value: 0.1394
+  Vessel ID 2: position (39, 29), VEGF value: 0.1391
+  Vessel ID 4: position (17, 37), VEGF value: 0.0677
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (4, 15), VEGF value: 0.1394
+  Vessel ID 2: position (39, 29), VEGF value: 0.1391
+  Vessel ID 4: position (17, 37), VEGF value: 0.0677
+
+--- Step 73/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 15), VEGF value: 0.1394
+  Vessel ID 2: position (39, 29), VEGF value: 0.1391
+  Vessel ID 4: position (17, 37), VEGF value: 0.0677
+Growing vasculature...
+Previous position: (3, 15)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(4, 14), (4, 16), (3, 15), (3, 16), (3, 14)]
+Valid neighbors after grid boundary check: [(4, 14), (4, 16), (3, 16), (3, 14)]
+Tip (ID: 1) at (4, 15) grew to (3, 14) with VEGF value: 0.1293904499062852
+Previous position: (38, 28)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(40, 29), (40, 30), (40, 28), (39, 30), (39, 28)]
+Valid neighbors after grid boundary check: [(39, 30), (39, 28)]
+Tip (ID: 2) at (39, 29) grew to (39, 30) with VEGF value: 0.09926808330716003
+Previous position: (16, 38)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(18, 37), (18, 38), (18, 36), (17, 38), (17, 36)]
+Valid neighbors after grid boundary check: [(18, 37), (18, 38), (18, 36), (17, 36)]
+Tip (ID: 4) at (17, 37) grew to (18, 36) with VEGF value: 0.13833899727826882
+Tip positions after growth:
+  Vessel ID 1: position (3, 14), VEGF value: 0.1229
+  Vessel ID 2: position (39, 30), VEGF value: 0.0943
+  Vessel ID 4: position (18, 36), VEGF value: 0.1314
+
+--- Step 74/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 14), VEGF value: 0.1229
+  Vessel ID 2: position (39, 30), VEGF value: 0.0943
+  Vessel ID 4: position (18, 36), VEGF value: 0.1314
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 14), VEGF value: 0.1229
+  Vessel ID 2: position (39, 30), VEGF value: 0.0943
+  Vessel ID 4: position (18, 36), VEGF value: 0.1314
+
+--- Step 75/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 14), VEGF value: 0.1229
+  Vessel ID 2: position (39, 30), VEGF value: 0.0943
+  Vessel ID 4: position (18, 36), VEGF value: 0.1314
+Growing vasculature...
+Previous position: (4, 15)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(3, 15), (3, 13), (2, 14), (2, 15), (2, 13)]
+Valid neighbors after grid boundary check: [(3, 13), (2, 14), (2, 15), (2, 13)]
+Tip (ID: 1) at (3, 14) grew to (3, 13) with VEGF value: 0.13760845539987232
+Previous position: (39, 29)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(39, 31), (40, 31), (40, 30), (38, 30), (38, 31)]
+Valid neighbors after grid boundary check: [(39, 31), (38, 30), (38, 31)]
+Tip (ID: 2) at (39, 30) grew to (38, 30) with VEGF value: 0.08453284475025798
+Previous position: (17, 37)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(19, 36), (19, 37), (19, 35), (18, 37), (18, 35)]
+Valid neighbors after grid boundary check: [(19, 36), (19, 37), (19, 35), (18, 37), (18, 35)]
+Tip (ID: 4) at (18, 36) grew to (19, 35) with VEGF value: 0.08218519572762165
+Tip positions after growth:
+  Vessel ID 1: position (3, 13), VEGF value: 0.1307
+  Vessel ID 2: position (38, 30), VEGF value: 0.0803
+  Vessel ID 4: position (19, 35), VEGF value: 0.0781
+
+--- Step 76/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 13), VEGF value: 0.1307
+  Vessel ID 2: position (38, 30), VEGF value: 0.0803
+  Vessel ID 4: position (19, 35), VEGF value: 0.0781
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 13), VEGF value: 0.1307
+  Vessel ID 2: position (38, 30), VEGF value: 0.0803
+  Vessel ID 4: position (19, 35), VEGF value: 0.0781
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_76.png
+
+--- Step 77/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 13), VEGF value: 0.1307
+  Vessel ID 2: position (38, 30), VEGF value: 0.0803
+  Vessel ID 4: position (19, 35), VEGF value: 0.0781
+Growing vasculature...
+Previous position: (3, 14)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(3, 12), (4, 12), (4, 13), (2, 13), (2, 12)]
+Valid neighbors after grid boundary check: [(3, 12), (4, 12), (4, 13), (2, 13), (2, 12)]
+Tip (ID: 1) at (3, 13) grew to (2, 13) with VEGF value: 0.12472060310769251
+Previous position: (39, 30)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(38, 29), (38, 31), (37, 30), (37, 31), (37, 29)]
+Valid neighbors after grid boundary check: [(38, 29), (38, 31), (37, 30), (37, 31), (37, 29)]
+Tip (ID: 2) at (38, 30) grew to (37, 31) with VEGF value: 0.10871627148896773
+Previous position: (18, 36)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(20, 35), (20, 36), (20, 34), (19, 36), (19, 34)]
+Valid neighbors after grid boundary check: [(20, 35), (20, 36), (20, 34), (19, 36), (19, 34)]
+Tip (ID: 4) at (19, 35) grew to (20, 34) with VEGF value: 0.051690050605985194
+Tip positions after growth:
+  Vessel ID 1: position (2, 13), VEGF value: 0.1185
+  Vessel ID 2: position (37, 31), VEGF value: 0.1033
+  Vessel ID 4: position (20, 34), VEGF value: 0.0491
+
+--- Step 78/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 13), VEGF value: 0.1185
+  Vessel ID 2: position (37, 31), VEGF value: 0.1033
+  Vessel ID 4: position (20, 34), VEGF value: 0.0491
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 13), VEGF value: 0.1185
+  Vessel ID 2: position (37, 31), VEGF value: 0.1033
+  Vessel ID 4: position (20, 34), VEGF value: 0.0491
+
+--- Step 79/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 13), VEGF value: 0.1185
+  Vessel ID 2: position (37, 31), VEGF value: 0.1033
+  Vessel ID 4: position (20, 34), VEGF value: 0.0491
+Growing vasculature...
+Previous position: (3, 13)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(2, 12), (2, 14), (1, 13), (1, 14), (1, 12)]
+Valid neighbors after grid boundary check: [(2, 12), (2, 14), (1, 13), (1, 14), (1, 12)]
+Tip (ID: 1) at (2, 13) grew to (2, 12) with VEGF value: 0.11559427684139591
+Previous position: (38, 30)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(37, 32), (38, 32), (36, 31), (36, 32), (36, 30)]
+Valid neighbors after grid boundary check: [(37, 32), (38, 32), (36, 31), (36, 32), (36, 30)]
+Tip (ID: 2) at (37, 31) grew to (36, 32) with VEGF value: 0.12310601811734136
+Previous position: (19, 35)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(21, 34), (21, 35), (21, 33), (20, 35), (20, 33)]
+Valid neighbors after grid boundary check: [(21, 34), (21, 35), (21, 33), (20, 35), (20, 33)]
+Tip (ID: 4) at (20, 34) grew to (21, 33) with VEGF value: 0.11954327510649583
+Tip positions after growth:
+  Vessel ID 1: position (2, 12), VEGF value: 0.1098
+  Vessel ID 2: position (36, 32), VEGF value: 0.1170
+  Vessel ID 4: position (21, 33), VEGF value: 0.1136
+
+--- Step 80/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 12), VEGF value: 0.1098
+  Vessel ID 2: position (36, 32), VEGF value: 0.1170
+  Vessel ID 4: position (21, 33), VEGF value: 0.1136
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 12), VEGF value: 0.1098
+  Vessel ID 2: position (36, 32), VEGF value: 0.1170
+  Vessel ID 4: position (21, 33), VEGF value: 0.1136
+
+--- Step 81/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 12), VEGF value: 0.1098
+  Vessel ID 2: position (36, 32), VEGF value: 0.1170
+  Vessel ID 4: position (21, 33), VEGF value: 0.1136
+Growing vasculature...
+Previous position: (2, 13)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(2, 11), (3, 11), (3, 12), (1, 12), (1, 11)]
+Valid neighbors after grid boundary check: [(2, 11), (3, 11), (3, 12), (1, 12), (1, 11)]
+Tip (ID: 1) at (2, 12) grew to (1, 11) with VEGF value: 0.08987238385697849
+Previous position: (37, 31)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(36, 33), (37, 33), (35, 32), (35, 33), (35, 31)]
+Valid neighbors after grid boundary check: [(36, 33), (37, 33), (35, 32), (35, 33), (35, 31)]
+Tip (ID: 2) at (36, 32) grew to (36, 33) with VEGF value: 0.11900762927088213
+Previous position: (20, 34)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(22, 33), (22, 34), (22, 32), (21, 34), (21, 32)]
+Valid neighbors after grid boundary check: [(22, 33), (22, 34), (22, 32), (21, 34), (21, 32)]
+Tip (ID: 4) at (21, 33) grew to (21, 32) with VEGF value: 0.10887548592364873
+Tip positions after growth:
+  Vessel ID 1: position (1, 11), VEGF value: 0.0854
+  Vessel ID 2: position (36, 33), VEGF value: 0.1131
+  Vessel ID 4: position (21, 32), VEGF value: 0.1034
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_81.png
+
+--- Step 82/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 11), VEGF value: 0.0854
+  Vessel ID 2: position (36, 33), VEGF value: 0.1131
+  Vessel ID 4: position (21, 32), VEGF value: 0.1034
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 11), VEGF value: 0.0854
+  Vessel ID 2: position (36, 33), VEGF value: 0.1131
+  Vessel ID 4: position (21, 32), VEGF value: 0.1034
+
+--- Step 83/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 11), VEGF value: 0.0854
+  Vessel ID 2: position (36, 33), VEGF value: 0.1131
+  Vessel ID 4: position (21, 32), VEGF value: 0.1034
+Growing vasculature...
+Previous position: (2, 12)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(1, 12), (1, 10), (0, 11), (0, 12), (0, 10)]
+Valid neighbors after grid boundary check: [(1, 12), (1, 10), (0, 11), (0, 12), (0, 10)]
+Tip (ID: 1) at (1, 11) grew to (0, 11) with VEGF value: 0.095588714705166
+Previous position: (36, 32)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(36, 34), (37, 34), (37, 33), (35, 33), (35, 34)]
+Valid neighbors after grid boundary check: [(36, 34), (37, 34), (37, 33), (35, 33), (35, 34)]
+Tip (ID: 2) at (36, 33) grew to (37, 34) with VEGF value: 0.11876509738318405
+Previous position: (21, 33)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(21, 31), (22, 31), (22, 32), (20, 32), (20, 31)]
+Valid neighbors after grid boundary check: [(21, 31), (22, 31), (22, 32), (20, 32), (20, 31)]
+Tip (ID: 4) at (21, 32) grew to (20, 31) with VEGF value: 0.11384566075169204
+Tip positions after growth:
+  Vessel ID 1: position (0, 11), VEGF value: 0.0908
+  Vessel ID 2: position (37, 34), VEGF value: 0.1128
+  Vessel ID 4: position (20, 31), VEGF value: 0.1082
+
+--- Step 84/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 11), VEGF value: 0.0908
+  Vessel ID 2: position (37, 34), VEGF value: 0.1128
+  Vessel ID 4: position (20, 31), VEGF value: 0.1082
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 11), VEGF value: 0.0908
+  Vessel ID 2: position (37, 34), VEGF value: 0.1128
+  Vessel ID 4: position (20, 31), VEGF value: 0.1082
+
+--- Step 85/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 11), VEGF value: 0.0908
+  Vessel ID 2: position (37, 34), VEGF value: 0.1128
+  Vessel ID 4: position (20, 31), VEGF value: 0.1082
+Growing vasculature...
+Previous position: (1, 11)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(0, 10), (0, 12), (-1, 11), (-1, 12), (-1, 10)]
+Valid neighbors after grid boundary check: [(0, 10), (0, 12)]
+Tip (ID: 1) at (0, 11) grew to (0, 12) with VEGF value: 0.08055374195398772
+Previous position: (36, 33)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(38, 34), (38, 35), (38, 33), (37, 35), (37, 33)]
+Valid neighbors after grid boundary check: [(38, 34), (38, 35), (38, 33), (37, 35), (37, 33)]
+Tip (ID: 2) at (37, 34) grew to (38, 35) with VEGF value: 0.08647242122117361
+Previous position: (21, 32)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(20, 32), (20, 30), (19, 31), (19, 32), (19, 30)]
+Valid neighbors after grid boundary check: [(20, 32), (20, 30), (19, 31), (19, 32), (19, 30)]
+Tip (ID: 4) at (20, 31) grew to (19, 32) with VEGF value: 0.0831903141227643
+Tip positions after growth:
+  Vessel ID 1: position (0, 12), VEGF value: 0.0765
+  Vessel ID 2: position (38, 35), VEGF value: 0.0821
+  Vessel ID 4: position (19, 32), VEGF value: 0.0790
+
+--- Step 86/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 12), VEGF value: 0.0765
+  Vessel ID 2: position (38, 35), VEGF value: 0.0821
+  Vessel ID 4: position (19, 32), VEGF value: 0.0790
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 12), VEGF value: 0.0765
+  Vessel ID 2: position (38, 35), VEGF value: 0.0821
+  Vessel ID 4: position (19, 32), VEGF value: 0.0790
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_86.png
+
+--- Step 87/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 12), VEGF value: 0.0765
+  Vessel ID 2: position (38, 35), VEGF value: 0.0821
+  Vessel ID 4: position (19, 32), VEGF value: 0.0790
+Growing vasculature...
+Previous position: (0, 11)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 13), (1, 13), (1, 12), (-1, 12), (-1, 13)]
+Valid neighbors after grid boundary check: [(0, 13), (1, 13), (1, 12)]
+Tip (ID: 1) at (0, 12) grew to (0, 13) with VEGF value: 0.07052083602882178
+Previous position: (37, 34)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(39, 35), (39, 36), (39, 34), (38, 36), (38, 34)]
+Valid neighbors after grid boundary check: [(39, 35), (39, 36), (39, 34), (38, 36), (38, 34)]
+Tip (ID: 2) at (38, 35) grew to (38, 34) with VEGF value: 0.07297497917827725
+Previous position: (20, 31)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(19, 33), (20, 33), (18, 32), (18, 33), (18, 31)]
+Valid neighbors after grid boundary check: [(19, 33), (20, 33), (18, 32), (18, 33), (18, 31)]
+Tip (ID: 4) at (19, 32) grew to (18, 33) with VEGF value: 0.07573783377162936
+Tip positions after growth:
+  Vessel ID 1: position (0, 13), VEGF value: 0.0670
+  Vessel ID 2: position (38, 34), VEGF value: 0.0693
+  Vessel ID 4: position (18, 33), VEGF value: 0.0720
+
+--- Step 88/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 13), VEGF value: 0.0670
+  Vessel ID 2: position (38, 34), VEGF value: 0.0693
+  Vessel ID 4: position (18, 33), VEGF value: 0.0720
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 13), VEGF value: 0.0670
+  Vessel ID 2: position (38, 34), VEGF value: 0.0693
+  Vessel ID 4: position (18, 33), VEGF value: 0.0720
+
+--- Step 89/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 13), VEGF value: 0.0670
+  Vessel ID 2: position (38, 34), VEGF value: 0.0693
+  Vessel ID 4: position (18, 33), VEGF value: 0.0720
+Growing vasculature...
+Previous position: (0, 12)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 14), (1, 14), (1, 13), (-1, 13), (-1, 14)]
+Valid neighbors after grid boundary check: [(0, 14), (1, 14), (1, 13)]
+Tip (ID: 1) at (0, 13) grew to (0, 14) with VEGF value: 0.03340923687738746
+Previous position: (38, 35)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(38, 33), (39, 33), (39, 34), (37, 34), (37, 33)]
+Valid neighbors after grid boundary check: [(38, 33), (39, 33), (39, 34), (37, 33)]
+Tip (ID: 2) at (38, 34) grew to (39, 33) with VEGF value: 0.05151031323708919
+Previous position: (19, 32)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(18, 34), (19, 34), (17, 33), (17, 34), (17, 32)]
+Valid neighbors after grid boundary check: [(18, 34), (19, 34), (17, 33), (17, 34), (17, 32)]
+Tip (ID: 4) at (18, 33) grew to (17, 32) with VEGF value: 0.06248121072871004
+Tip positions after growth:
+  Vessel ID 1: position (0, 14), VEGF value: 0.0317
+  Vessel ID 2: position (39, 33), VEGF value: 0.0489
+  Vessel ID 4: position (17, 32), VEGF value: 0.0594
+
+--- Step 90/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 14), VEGF value: 0.0317
+  Vessel ID 2: position (39, 33), VEGF value: 0.0489
+  Vessel ID 4: position (17, 32), VEGF value: 0.0594
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 14), VEGF value: 0.0317
+  Vessel ID 2: position (39, 33), VEGF value: 0.0489
+  Vessel ID 4: position (17, 32), VEGF value: 0.0594
+
+--- Step 91/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 14), VEGF value: 0.0317
+  Vessel ID 2: position (39, 33), VEGF value: 0.0489
+  Vessel ID 4: position (17, 32), VEGF value: 0.0594
+Growing vasculature...
+Previous position: (0, 13)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 15), (1, 15), (1, 14), (-1, 14), (-1, 15)]
+Valid neighbors after grid boundary check: [(0, 15), (1, 15), (1, 14)]
+Tip (ID: 1) at (0, 14) grew to (1, 14) with VEGF value: 0.011370758881717645
+Previous position: (38, 34)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(40, 33), (40, 34), (40, 32), (39, 34), (39, 32)]
+Valid neighbors after grid boundary check: [(39, 34), (39, 32)]
+Tip (ID: 2) at (39, 33) grew to (39, 32) with VEGF value: 0.07349892739425463
+Previous position: (18, 33)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(17, 33), (17, 31), (16, 32), (16, 33), (16, 31)]
+Valid neighbors after grid boundary check: [(17, 33), (17, 31), (16, 32), (16, 33), (16, 31)]
+Tip (ID: 4) at (17, 32) grew to (16, 31) with VEGF value: 0.03071930476140496
+Tip positions after growth:
+  Vessel ID 1: position (1, 14), VEGF value: 0.0108
+  Vessel ID 2: position (39, 32), VEGF value: 0.0698
+  Vessel ID 4: position (16, 31), VEGF value: 0.0292
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_91.png
+
+--- Step 92/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 14), VEGF value: 0.0108
+  Vessel ID 2: position (39, 32), VEGF value: 0.0698
+  Vessel ID 4: position (16, 31), VEGF value: 0.0292
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 14), VEGF value: 0.0108
+  Vessel ID 2: position (39, 32), VEGF value: 0.0698
+  Vessel ID 4: position (16, 31), VEGF value: 0.0292
+
+--- Step 93/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 14), VEGF value: 0.0108
+  Vessel ID 2: position (39, 32), VEGF value: 0.0698
+  Vessel ID 4: position (16, 31), VEGF value: 0.0292
+Growing vasculature...
+Previous position: (0, 14)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(1, 13), (1, 15), (0, 14), (0, 15), (0, 13)]
+Valid neighbors after grid boundary check: [(1, 13), (1, 15), (0, 15)]
+Tip (ID: 1) at (1, 14) grew to (1, 15) with VEGF value: 0.002716480532049031
+Previous position: (39, 33)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(39, 31), (40, 31), (40, 32), (38, 32), (38, 31)]
+Valid neighbors after grid boundary check: [(39, 31), (38, 32), (38, 31)]
+Tip (ID: 2) at (39, 32) grew to (38, 32) with VEGF value: 0.05668376045808108
+Previous position: (17, 32)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(16, 32), (16, 30), (15, 31), (15, 32), (15, 30)]
+Valid neighbors after grid boundary check: [(16, 32), (16, 30), (15, 31), (15, 32), (15, 30)]
+Tip (ID: 4) at (16, 31) grew to (15, 32) with VEGF value: 0.09147875001020975
+Tip positions after growth:
+  Vessel ID 1: position (1, 15), VEGF value: 0.0026
+  Vessel ID 2: position (38, 32), VEGF value: 0.0538
+  Vessel ID 4: position (15, 32), VEGF value: 0.0869
+
+--- Step 94/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 15), VEGF value: 0.0026
+  Vessel ID 2: position (38, 32), VEGF value: 0.0538
+  Vessel ID 4: position (15, 32), VEGF value: 0.0869
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 15), VEGF value: 0.0026
+  Vessel ID 2: position (38, 32), VEGF value: 0.0538
+  Vessel ID 4: position (15, 32), VEGF value: 0.0869
+
+--- Step 95/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 15), VEGF value: 0.0026
+  Vessel ID 2: position (38, 32), VEGF value: 0.0538
+  Vessel ID 4: position (15, 32), VEGF value: 0.0869
+Growing vasculature...
+Previous position: (1, 14)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(1, 16), (2, 16), (2, 15), (0, 15), (0, 16)]
+Valid neighbors after grid boundary check: [(1, 16), (2, 15), (0, 15), (0, 16)]
+Tip (ID: 1) at (1, 15) grew to (1, 16) with VEGF value: 0.036149510723422124
+Previous position: (39, 32)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(38, 31), (38, 33), (37, 32), (37, 33), (37, 31)]
+Valid neighbors after grid boundary check: [(38, 31), (38, 33), (37, 32), (37, 33)]
+Tip (ID: 2) at (38, 32) grew to (37, 32) with VEGF value: 0.06424406727880562
+Previous position: (16, 31)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(15, 33), (16, 33), (14, 32), (14, 33), (14, 31)]
+Valid neighbors after grid boundary check: [(15, 33), (16, 33), (14, 32), (14, 33), (14, 31)]
+Tip (ID: 4) at (15, 32) grew to (15, 33) with VEGF value: 0.04031364852897367
+Tip positions after growth:
+  Vessel ID 1: position (1, 16), VEGF value: 0.0343
+  Vessel ID 2: position (37, 32), VEGF value: 0.0610
+  Vessel ID 4: position (15, 33), VEGF value: 0.0383
+
+--- Step 96/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 16), VEGF value: 0.0343
+  Vessel ID 2: position (37, 32), VEGF value: 0.0610
+  Vessel ID 4: position (15, 33), VEGF value: 0.0383
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 16), VEGF value: 0.0343
+  Vessel ID 2: position (37, 32), VEGF value: 0.0610
+  Vessel ID 4: position (15, 33), VEGF value: 0.0383
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_96.png
+
+--- Step 97/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 16), VEGF value: 0.0343
+  Vessel ID 2: position (37, 32), VEGF value: 0.0610
+  Vessel ID 4: position (15, 33), VEGF value: 0.0383
+Growing vasculature...
+Previous position: (1, 15)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(1, 17), (2, 17), (2, 16), (0, 16), (0, 17)]
+Valid neighbors after grid boundary check: [(1, 17), (0, 16), (0, 17)]
+Tip (ID: 1) at (1, 16) grew to (0, 17) with VEGF value: 0.03984339989791489
+Previous position: (38, 32)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(37, 31), (37, 33), (36, 32), (36, 33), (36, 31)]
+Valid neighbors after grid boundary check: [(37, 33), (36, 31)]
+Tip (ID: 2) at (37, 32) grew to (36, 31) with VEGF value: 0.06059606170339965
+Previous position: (15, 32)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(15, 34), (16, 34), (16, 33), (14, 33), (14, 34)]
+Valid neighbors after grid boundary check: [(15, 34), (16, 34), (16, 33), (14, 33)]
+Tip (ID: 4) at (15, 33) grew to (16, 34) with VEGF value: 0.05457279075324745
+Tip positions after growth:
+  Vessel ID 1: position (0, 17), VEGF value: 0.0379
+  Vessel ID 2: position (36, 31), VEGF value: 0.0576
+  Vessel ID 4: position (16, 34), VEGF value: 0.0518
+
+--- Step 98/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 17), VEGF value: 0.0379
+  Vessel ID 2: position (36, 31), VEGF value: 0.0576
+  Vessel ID 4: position (16, 34), VEGF value: 0.0518
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 17), VEGF value: 0.0379
+  Vessel ID 2: position (36, 31), VEGF value: 0.0576
+  Vessel ID 4: position (16, 34), VEGF value: 0.0518
+
+--- Step 99/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 17), VEGF value: 0.0379
+  Vessel ID 2: position (36, 31), VEGF value: 0.0576
+  Vessel ID 4: position (16, 34), VEGF value: 0.0518
+Growing vasculature...
+Previous position: (1, 16)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(0, 18), (1, 18), (-1, 17), (-1, 18), (-1, 16)]
+Valid neighbors after grid boundary check: [(0, 18), (1, 18)]
+Tip (ID: 1) at (0, 17) grew to (0, 18) with VEGF value: 0.0464099340117919
+Previous position: (37, 32)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(36, 32), (36, 30), (35, 31), (35, 32), (35, 30)]
+Valid neighbors after grid boundary check: [(36, 30), (35, 31), (35, 32), (35, 30)]
+Tip (ID: 2) at (36, 31) grew to (35, 32) with VEGF value: 0.061124994617207565
+Previous position: (15, 33)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(17, 34), (17, 35), (17, 33), (16, 35), (16, 33)]
+Valid neighbors after grid boundary check: [(17, 34), (17, 35), (17, 33), (16, 35), (16, 33)]
+Tip (ID: 4) at (16, 34) grew to (17, 35) with VEGF value: 0.04221497371298288
+Tip positions after growth:
+  Vessel ID 1: position (0, 18), VEGF value: 0.0441
+  Vessel ID 2: position (35, 32), VEGF value: 0.0581
+  Vessel ID 4: position (17, 35), VEGF value: 0.0401
+
+--- Step 100/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 18), VEGF value: 0.0441
+  Vessel ID 2: position (35, 32), VEGF value: 0.0581
+  Vessel ID 4: position (17, 35), VEGF value: 0.0401
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 18), VEGF value: 0.0441
+  Vessel ID 2: position (35, 32), VEGF value: 0.0581
+  Vessel ID 4: position (17, 35), VEGF value: 0.0401
+
+--- Step 101/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 18), VEGF value: 0.0441
+  Vessel ID 2: position (35, 32), VEGF value: 0.0581
+  Vessel ID 4: position (17, 35), VEGF value: 0.0401
+Growing vasculature...
+Previous position: (0, 17)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 19), (1, 19), (1, 18), (-1, 18), (-1, 19)]
+Valid neighbors after grid boundary check: [(0, 19), (1, 19), (1, 18)]
+Tip (ID: 1) at (0, 18) grew to (0, 19) with VEGF value: 0.05935048396763732
+Previous position: (36, 31)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(35, 33), (36, 33), (34, 32), (34, 33), (34, 31)]
+Valid neighbors after grid boundary check: [(35, 33), (34, 32), (34, 33), (34, 31)]
+Tip (ID: 2) at (35, 32) grew to (34, 32) with VEGF value: 0.045246239859364074
+Previous position: (16, 34)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(18, 35), (18, 36), (18, 34), (17, 36), (17, 34)]
+Valid neighbors after grid boundary check: [(18, 35), (18, 34), (17, 36), (17, 34)]
+Tip (ID: 4) at (17, 35) grew to (18, 34) with VEGF value: 0.039071763996583124
+Tip positions after growth:
+  Vessel ID 1: position (0, 19), VEGF value: 0.0564
+  Vessel ID 2: position (34, 32), VEGF value: 0.0430
+  Vessel ID 4: position (18, 34), VEGF value: 0.0371
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_101.png
+
+--- Step 102/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 19), VEGF value: 0.0564
+  Vessel ID 2: position (34, 32), VEGF value: 0.0430
+  Vessel ID 4: position (18, 34), VEGF value: 0.0371
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 19), VEGF value: 0.0564
+  Vessel ID 2: position (34, 32), VEGF value: 0.0430
+  Vessel ID 4: position (18, 34), VEGF value: 0.0371
+
+--- Step 103/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 19), VEGF value: 0.0564
+  Vessel ID 2: position (34, 32), VEGF value: 0.0430
+  Vessel ID 4: position (18, 34), VEGF value: 0.0371
+Growing vasculature...
+Previous position: (0, 18)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 20), (1, 20), (1, 19), (-1, 19), (-1, 20)]
+Valid neighbors after grid boundary check: [(0, 20), (1, 20), (1, 19)]
+Tip (ID: 1) at (0, 19) grew to (1, 20) with VEGF value: 0.05165832211942971
+Previous position: (35, 32)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(34, 31), (34, 33), (33, 32), (33, 33), (33, 31)]
+Valid neighbors after grid boundary check: [(34, 31), (34, 33), (33, 32), (33, 33), (33, 31)]
+Tip (ID: 2) at (34, 32) grew to (33, 31) with VEGF value: 0.031228378370675137
+Previous position: (17, 35)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(19, 34), (19, 35), (19, 33), (18, 35), (18, 33)]
+Valid neighbors after grid boundary check: [(19, 34), (19, 33), (18, 35)]
+Tip (ID: 4) at (18, 34) grew to (18, 35) with VEGF value: 0.03510651546773119
+Tip positions after growth:
+  Vessel ID 1: position (1, 20), VEGF value: 0.0491
+  Vessel ID 2: position (33, 31), VEGF value: 0.0297
+  Vessel ID 4: position (18, 35), VEGF value: 0.0334
+
+--- Step 104/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 20), VEGF value: 0.0491
+  Vessel ID 2: position (33, 31), VEGF value: 0.0297
+  Vessel ID 4: position (18, 35), VEGF value: 0.0334
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 20), VEGF value: 0.0491
+  Vessel ID 2: position (33, 31), VEGF value: 0.0297
+  Vessel ID 4: position (18, 35), VEGF value: 0.0334
+
+--- Step 105/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 20), VEGF value: 0.0491
+  Vessel ID 2: position (33, 31), VEGF value: 0.0297
+  Vessel ID 4: position (18, 35), VEGF value: 0.0334
+Growing vasculature...
+Previous position: (0, 19)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(2, 20), (2, 21), (2, 19), (1, 21), (1, 19)]
+Valid neighbors after grid boundary check: [(2, 21), (1, 21), (1, 19)]
+Tip (ID: 1) at (1, 20) grew to (2, 21) with VEGF value: 0.02425478625797384
+Previous position: (34, 32)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(33, 32), (33, 30), (32, 31), (32, 32), (32, 30)]
+Valid neighbors after grid boundary check: [(33, 32), (33, 30), (32, 31), (32, 32), (32, 30)]
+Tip (ID: 2) at (33, 31) grew to (32, 31) with VEGF value: 0.0561728729842529
+Previous position: (18, 34)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(18, 36), (19, 36), (19, 35), (17, 35), (17, 36)]
+Valid neighbors after grid boundary check: [(19, 36), (17, 36)]
+Tip (ID: 4) at (18, 35) grew to (19, 36) with VEGF value: 0.02296930392844928
+Tip positions after growth:
+  Vessel ID 1: position (2, 21), VEGF value: 0.0230
+  Vessel ID 2: position (32, 31), VEGF value: 0.0534
+  Vessel ID 4: position (19, 36), VEGF value: 0.0218
+
+--- Step 106/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 21), VEGF value: 0.0230
+  Vessel ID 2: position (32, 31), VEGF value: 0.0534
+  Vessel ID 4: position (19, 36), VEGF value: 0.0218
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 21), VEGF value: 0.0230
+  Vessel ID 2: position (32, 31), VEGF value: 0.0534
+  Vessel ID 4: position (19, 36), VEGF value: 0.0218
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_106.png
+
+--- Step 107/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 21), VEGF value: 0.0230
+  Vessel ID 2: position (32, 31), VEGF value: 0.0534
+  Vessel ID 4: position (19, 36), VEGF value: 0.0218
+Growing vasculature...
+Previous position: (1, 20)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(3, 21), (3, 22), (3, 20), (2, 22), (2, 20)]
+Valid neighbors after grid boundary check: [(3, 22), (3, 20), (2, 22)]
+Tip (ID: 1) at (2, 21) grew to (2, 22) with VEGF value: 0.037636206045146045
+Previous position: (33, 31)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(32, 30), (32, 32), (31, 31), (31, 32), (31, 30)]
+Valid neighbors after grid boundary check: [(32, 30), (32, 32), (31, 31), (31, 32), (31, 30)]
+Tip (ID: 2) at (32, 31) grew to (31, 31) with VEGF value: 0.0492486812873572
+Previous position: (18, 35)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(20, 36), (20, 37), (20, 35), (19, 37), (19, 35)]
+Valid neighbors after grid boundary check: [(20, 36), (20, 37), (20, 35), (19, 37)]
+Tip (ID: 4) at (19, 36) grew to (20, 37) with VEGF value: 0.047190123015676974
+Tip positions after growth:
+  Vessel ID 1: position (2, 22), VEGF value: 0.0358
+  Vessel ID 2: position (31, 31), VEGF value: 0.0468
+  Vessel ID 4: position (20, 37), VEGF value: 0.0448
+
+--- Step 108/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 22), VEGF value: 0.0358
+  Vessel ID 2: position (31, 31), VEGF value: 0.0468
+  Vessel ID 4: position (20, 37), VEGF value: 0.0448
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 2 at (31, 31) connecting to Vessel ID 6 at (30, 30)
+  Anastomosis between Tip 2 and Vessel 6
+Tip positions after growth:
+  Vessel ID 1: position (2, 22), VEGF value: 0.0358
+  Vessel ID 4: position (20, 37), VEGF value: 0.0448
+
+--- Step 109/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 22), VEGF value: 0.0358
+  Vessel ID 4: position (20, 37), VEGF value: 0.0448
+Growing vasculature...
+Previous position: (2, 21)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(2, 23), (3, 23), (3, 22), (1, 22), (1, 23)]
+Valid neighbors after grid boundary check: [(2, 23), (3, 23), (3, 22), (1, 22), (1, 23)]
+Tip (ID: 1) at (2, 22) grew to (3, 23) with VEGF value: 0.061248983791716054
+Previous position: (19, 36)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(21, 37), (21, 38), (21, 36), (20, 38), (20, 36)]
+Valid neighbors after grid boundary check: [(21, 38), (21, 36), (20, 36)]
+Tip (ID: 4) at (20, 37) grew to (21, 38) with VEGF value: 0.029929039301690136
+Tip positions after growth:
+  Vessel ID 1: position (3, 23), VEGF value: 0.0582
+  Vessel ID 4: position (21, 38), VEGF value: 0.0284
+
+--- Step 110/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 23), VEGF value: 0.0582
+  Vessel ID 4: position (21, 38), VEGF value: 0.0284
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 23), VEGF value: 0.0582
+  Vessel ID 4: position (21, 38), VEGF value: 0.0284
+
+--- Step 111/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 23), VEGF value: 0.0582
+  Vessel ID 4: position (21, 38), VEGF value: 0.0284
+Growing vasculature...
+Previous position: (2, 22)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(4, 23), (4, 24), (4, 22), (3, 24), (3, 22)]
+Valid neighbors after grid boundary check: [(4, 23), (4, 24), (4, 22), (3, 24), (3, 22)]
+Tip (ID: 1) at (3, 23) grew to (4, 23) with VEGF value: 0.03343096614900965
+Previous position: (20, 37)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(22, 38), (22, 39), (22, 37), (21, 39), (21, 37)]
+Valid neighbors after grid boundary check: [(22, 38), (22, 39), (22, 37), (21, 39)]
+Tip (ID: 4) at (21, 38) grew to (21, 39) with VEGF value: 0.03959093432120571
+Tip positions after growth:
+  Vessel ID 1: position (4, 23), VEGF value: 0.0318
+  Vessel ID 4: position (21, 39), VEGF value: 0.0376
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_111.png
+
+--- Step 112/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 23), VEGF value: 0.0318
+  Vessel ID 4: position (21, 39), VEGF value: 0.0376
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (4, 23), VEGF value: 0.0318
+  Vessel ID 4: position (21, 39), VEGF value: 0.0376
+
+--- Step 113/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 23), VEGF value: 0.0318
+  Vessel ID 4: position (21, 39), VEGF value: 0.0376
+Growing vasculature...
+Previous position: (3, 23)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(4, 22), (4, 24), (3, 23), (3, 24), (3, 22)]
+Valid neighbors after grid boundary check: [(4, 22), (4, 24), (3, 24), (3, 22)]
+Tip (ID: 1) at (4, 23) grew to (3, 22) with VEGF value: 0.03136552005335451
+Previous position: (21, 38)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(21, 40), (22, 40), (22, 39), (20, 39), (20, 40)]
+Valid neighbors after grid boundary check: [(22, 39), (20, 39)]
+Tip (ID: 4) at (21, 39) grew to (20, 39) with VEGF value: 0.04632297666638777
+Tip positions after growth:
+  Vessel ID 1: position (3, 22), VEGF value: 0.0298
+  Vessel ID 4: position (20, 39), VEGF value: 0.0440
+
+--- Step 114/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 22), VEGF value: 0.0298
+  Vessel ID 4: position (20, 39), VEGF value: 0.0440
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 22), VEGF value: 0.0298
+  Vessel ID 4: position (20, 39), VEGF value: 0.0440
+
+--- Step 115/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 22), VEGF value: 0.0298
+  Vessel ID 4: position (20, 39), VEGF value: 0.0440
+Growing vasculature...
+Previous position: (4, 23)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(3, 23), (3, 21), (2, 22), (2, 23), (2, 21)]
+Valid neighbors after grid boundary check: [(2, 23)]
+Tip (ID: 1) at (3, 22) grew to (2, 23) with VEGF value: 0.003587106112498149
+Previous position: (21, 39)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(20, 38), (20, 40), (19, 39), (19, 40), (19, 38)]
+Valid neighbors after grid boundary check: [(19, 39)]
+Tip (ID: 4) at (20, 39) grew to (19, 39) with VEGF value: 0.01910534631588566
+Tip positions after growth:
+  Vessel ID 1: position (2, 23), VEGF value: 0.0034
+  Vessel ID 4: position (19, 39), VEGF value: 0.0182
+
+--- Step 116/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 23), VEGF value: 0.0034
+  Vessel ID 4: position (19, 39), VEGF value: 0.0182
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 23), VEGF value: 0.0034
+  Vessel ID 4: position (19, 39), VEGF value: 0.0182
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_116.png
+
+--- Step 117/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 23), VEGF value: 0.0034
+  Vessel ID 4: position (19, 39), VEGF value: 0.0182
+Growing vasculature...
+Previous position: (3, 22)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(2, 24), (3, 24), (1, 23), (1, 24), (1, 22)]
+Valid neighbors after grid boundary check: [(2, 24), (3, 24), (1, 23), (1, 24), (1, 22)]
+Tip (ID: 1) at (2, 23) grew to (1, 22) with VEGF value: 0.0467509293263094
+Previous position: (20, 39)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(19, 38), (19, 40), (18, 39), (18, 40), (18, 38)]
+Valid neighbors after grid boundary check: [(18, 38)]
+Tip (ID: 4) at (19, 39) grew to (18, 38) with VEGF value: 0.020234995682770256
+Tip positions after growth:
+  Vessel ID 1: position (1, 22), VEGF value: 0.0444
+  Vessel ID 4: position (18, 38), VEGF value: 0.0192
+
+--- Step 118/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 22), VEGF value: 0.0444
+  Vessel ID 4: position (18, 38), VEGF value: 0.0192
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 22), VEGF value: 0.0444
+  Vessel ID 4: position (18, 38), VEGF value: 0.0192
+
+--- Step 119/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 22), VEGF value: 0.0444
+  Vessel ID 4: position (18, 38), VEGF value: 0.0192
+Growing vasculature...
+Previous position: (2, 23)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(1, 23), (1, 21), (0, 22), (0, 23), (0, 21)]
+Valid neighbors after grid boundary check: [(1, 23), (1, 21), (0, 22), (0, 23), (0, 21)]
+Tip (ID: 1) at (1, 22) grew to (0, 23) with VEGF value: 0.022496984546746788
+Previous position: (19, 39)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(18, 39), (18, 37), (17, 38), (17, 39), (17, 37)]
+Valid neighbors after grid boundary check: [(18, 37), (17, 39)]
+Tip (ID: 4) at (18, 38) grew to (18, 37) with VEGF value: 0.017189257391438117
+Tip positions after growth:
+  Vessel ID 1: position (0, 23), VEGF value: 0.0214
+  Vessel ID 4: position (18, 37), VEGF value: 0.0163
+
+--- Step 120/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 23), VEGF value: 0.0214
+  Vessel ID 4: position (18, 37), VEGF value: 0.0163
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 23), VEGF value: 0.0214
+  Vessel ID 4: position (18, 37), VEGF value: 0.0163
+
+--- Step 121/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 23), VEGF value: 0.0214
+  Vessel ID 4: position (18, 37), VEGF value: 0.0163
+Growing vasculature...
+Previous position: (1, 22)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(0, 24), (1, 24), (-1, 23), (-1, 24), (-1, 22)]
+Valid neighbors after grid boundary check: [(0, 24), (1, 24)]
+Tip (ID: 1) at (0, 23) grew to (1, 24) with VEGF value: 0.04092804915663581
+Previous position: (18, 38)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(18, 36), (19, 36), (19, 37), (17, 37), (17, 36)]
+Valid neighbors after grid boundary check: [(19, 37), (17, 36)]
+Tip (ID: 4) at (18, 37) grew to (17, 36) with VEGF value: 0.015175220642779824
+Tip positions after growth:
+  Vessel ID 1: position (1, 24), VEGF value: 0.0389
+  Vessel ID 4: position (17, 36), VEGF value: 0.0144
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_121.png
+
+--- Step 122/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 24), VEGF value: 0.0389
+  Vessel ID 4: position (17, 36), VEGF value: 0.0144
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 24), VEGF value: 0.0389
+  Vessel ID 4: position (17, 36), VEGF value: 0.0144
+
+--- Step 123/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 24), VEGF value: 0.0389
+  Vessel ID 4: position (17, 36), VEGF value: 0.0144
+Growing vasculature...
+Previous position: (0, 23)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(2, 24), (2, 25), (2, 23), (1, 25), (1, 23)]
+Valid neighbors after grid boundary check: [(2, 24), (2, 25), (1, 25), (1, 23)]
+Tip (ID: 1) at (1, 24) grew to (1, 25) with VEGF value: 0.027916397354731257
+Previous position: (18, 37)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(17, 37), (17, 35), (16, 36), (16, 37), (16, 35)]
+Valid neighbors after grid boundary check: [(16, 36), (16, 35)]
+Tip (ID: 4) at (17, 36) grew to (16, 36) with VEGF value: 0.015076154356151538
+Tip positions after growth:
+  Vessel ID 1: position (1, 25), VEGF value: 0.0265
+  Vessel ID 4: position (16, 36), VEGF value: 0.0143
+
+--- Step 124/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 25), VEGF value: 0.0265
+  Vessel ID 4: position (16, 36), VEGF value: 0.0143
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 25), VEGF value: 0.0265
+  Vessel ID 4: position (16, 36), VEGF value: 0.0143
+
+--- Step 125/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 25), VEGF value: 0.0265
+  Vessel ID 4: position (16, 36), VEGF value: 0.0143
+Growing vasculature...
+Previous position: (1, 24)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(1, 26), (2, 26), (2, 25), (0, 25), (0, 26)]
+Valid neighbors after grid boundary check: [(1, 26), (2, 26), (2, 25), (0, 25), (0, 26)]
+Tip (ID: 1) at (1, 25) grew to (0, 26) with VEGF value: 0.03763228336100324
+Previous position: (17, 36)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(16, 35), (16, 37), (15, 36), (15, 37), (15, 35)]
+Valid neighbors after grid boundary check: [(16, 35), (15, 36), (15, 35)]
+Tip (ID: 4) at (16, 36) grew to (15, 35) with VEGF value: 0.021484282403200078
+Tip positions after growth:
+  Vessel ID 1: position (0, 26), VEGF value: 0.0358
+  Vessel ID 4: position (15, 35), VEGF value: 0.0204
+
+--- Step 126/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 26), VEGF value: 0.0358
+  Vessel ID 4: position (15, 35), VEGF value: 0.0204
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 26), VEGF value: 0.0358
+  Vessel ID 4: position (15, 35), VEGF value: 0.0204
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_126.png
+
+--- Step 127/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 26), VEGF value: 0.0358
+  Vessel ID 4: position (15, 35), VEGF value: 0.0204
+Growing vasculature...
+Previous position: (1, 25)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(0, 27), (1, 27), (-1, 26), (-1, 27), (-1, 25)]
+Valid neighbors after grid boundary check: [(0, 27), (1, 27)]
+Tip (ID: 1) at (0, 26) grew to (1, 27) with VEGF value: 0.02189993922406658
+Previous position: (16, 36)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(15, 36), (15, 34), (14, 35), (14, 36), (14, 34)]
+Valid neighbors after grid boundary check: [(15, 36), (15, 34), (14, 35)]
+Tip (ID: 4) at (15, 35) grew to (15, 36) with VEGF value: 0.02023487198346306
+Tip positions after growth:
+  Vessel ID 1: position (1, 27), VEGF value: 0.0208
+  Vessel ID 4: position (15, 36), VEGF value: 0.0192
+
+--- Step 128/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 27), VEGF value: 0.0208
+  Vessel ID 4: position (15, 36), VEGF value: 0.0192
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 27), VEGF value: 0.0208
+  Vessel ID 4: position (15, 36), VEGF value: 0.0192
+
+--- Step 129/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 27), VEGF value: 0.0208
+  Vessel ID 4: position (15, 36), VEGF value: 0.0192
+Growing vasculature...
+Previous position: (0, 26)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(2, 27), (2, 28), (2, 26), (1, 28), (1, 26)]
+Valid neighbors after grid boundary check: [(2, 27), (2, 28), (2, 26), (1, 28), (1, 26)]
+Tip (ID: 1) at (1, 27) grew to (1, 28) with VEGF value: 0.026052764165687012
+Previous position: (15, 35)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(15, 37), (16, 37), (16, 36), (14, 36), (14, 37)]
+Valid neighbors after grid boundary check: [(14, 37)]
+Tip (ID: 4) at (15, 36) grew to (14, 37) with VEGF value: 0.022470896357899794
+Tip positions after growth:
+  Vessel ID 1: position (1, 28), VEGF value: 0.0248
+  Vessel ID 4: position (14, 37), VEGF value: 0.0213
+
+--- Step 130/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 28), VEGF value: 0.0248
+  Vessel ID 4: position (14, 37), VEGF value: 0.0213
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 28), VEGF value: 0.0248
+  Vessel ID 4: position (14, 37), VEGF value: 0.0213
+
+--- Step 131/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 28), VEGF value: 0.0248
+  Vessel ID 4: position (14, 37), VEGF value: 0.0213
+Growing vasculature...
+Previous position: (1, 27)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(1, 29), (2, 29), (2, 28), (0, 28), (0, 29)]
+Valid neighbors after grid boundary check: [(1, 29), (2, 29), (2, 28), (0, 28), (0, 29)]
+Tip (ID: 1) at (1, 28) grew to (0, 28) with VEGF value: 0.02798735149566516
+Previous position: (15, 36)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(14, 38), (15, 38), (13, 37), (13, 38), (13, 36)]
+Valid neighbors after grid boundary check: [(14, 38), (13, 37), (13, 36)]
+Tip (ID: 4) at (14, 37) grew to (14, 38) with VEGF value: 0.008384663495936763
+Tip positions after growth:
+  Vessel ID 1: position (0, 28), VEGF value: 0.0266
+  Vessel ID 4: position (14, 38), VEGF value: 0.0080
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_131.png
+
+--- Step 132/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 28), VEGF value: 0.0266
+  Vessel ID 4: position (14, 38), VEGF value: 0.0080
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 28), VEGF value: 0.0266
+  Vessel ID 4: position (14, 38), VEGF value: 0.0080
+
+--- Step 133/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 28), VEGF value: 0.0266
+  Vessel ID 4: position (14, 38), VEGF value: 0.0080
+Growing vasculature...
+Previous position: (1, 28)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(0, 27), (0, 29), (-1, 28), (-1, 29), (-1, 27)]
+Valid neighbors after grid boundary check: [(0, 27), (0, 29)]
+Tip (ID: 1) at (0, 28) grew to (0, 29) with VEGF value: 0.012669311071811943
+Previous position: (14, 37)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(14, 39), (15, 39), (15, 38), (13, 38), (13, 39)]
+Valid neighbors after grid boundary check: [(15, 39), (13, 39)]
+Tip (ID: 4) at (14, 38) grew to (13, 39) with VEGF value: 0.015101995597156179
+Tip positions after growth:
+  Vessel ID 1: position (0, 29), VEGF value: 0.0120
+  Vessel ID 4: position (13, 39), VEGF value: 0.0143
+
+--- Step 134/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 29), VEGF value: 0.0120
+  Vessel ID 4: position (13, 39), VEGF value: 0.0143
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 29), VEGF value: 0.0120
+  Vessel ID 4: position (13, 39), VEGF value: 0.0143
+
+--- Step 135/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 29), VEGF value: 0.0120
+  Vessel ID 4: position (13, 39), VEGF value: 0.0143
+Growing vasculature...
+Previous position: (0, 28)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 30), (1, 30), (1, 29), (-1, 29), (-1, 30)]
+Valid neighbors after grid boundary check: [(0, 30), (1, 30), (1, 29)]
+Tip (ID: 1) at (0, 29) grew to (0, 30) with VEGF value: 0.031713998410944126
+Previous position: (14, 38)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(13, 40), (14, 40), (12, 39), (12, 40), (12, 38)]
+Valid neighbors after grid boundary check: [(12, 38)]
+Tip (ID: 4) at (13, 39) grew to (12, 38) with VEGF value: 0.01443863649215349
+Tip positions after growth:
+  Vessel ID 1: position (0, 30), VEGF value: 0.0301
+  Vessel ID 4: position (12, 38), VEGF value: 0.0137
+
+--- Step 136/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 30), VEGF value: 0.0301
+  Vessel ID 4: position (12, 38), VEGF value: 0.0137
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 30), VEGF value: 0.0301
+  Vessel ID 4: position (12, 38), VEGF value: 0.0137
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_136.png
+
+--- Step 137/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 30), VEGF value: 0.0301
+  Vessel ID 4: position (12, 38), VEGF value: 0.0137
+Growing vasculature...
+Previous position: (0, 29)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 31), (1, 31), (1, 30), (-1, 30), (-1, 31)]
+Valid neighbors after grid boundary check: [(0, 31), (1, 31), (1, 30)]
+Tip (ID: 1) at (0, 30) grew to (0, 31) with VEGF value: 0.019993442330176674
+Previous position: (13, 39)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(12, 39), (12, 37), (11, 38), (11, 39), (11, 37)]
+Valid neighbors after grid boundary check: [(12, 37), (11, 39)]
+Tip (ID: 4) at (12, 38) grew to (12, 37) with VEGF value: 0.02495520682243116
+Tip positions after growth:
+  Vessel ID 1: position (0, 31), VEGF value: 0.0190
+  Vessel ID 4: position (12, 37), VEGF value: 0.0237
+
+--- Step 138/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 31), VEGF value: 0.0190
+  Vessel ID 4: position (12, 37), VEGF value: 0.0237
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 31), VEGF value: 0.0190
+  Vessel ID 4: position (12, 37), VEGF value: 0.0237
+
+--- Step 139/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 31), VEGF value: 0.0190
+  Vessel ID 4: position (12, 37), VEGF value: 0.0237
+Growing vasculature...
+Previous position: (0, 30)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 32), (1, 32), (1, 31), (-1, 31), (-1, 32)]
+Valid neighbors after grid boundary check: [(0, 32), (1, 32), (1, 31)]
+Tip (ID: 1) at (0, 31) grew to (1, 31) with VEGF value: 0.01235712226063977
+Previous position: (12, 38)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(12, 36), (13, 36), (13, 37), (11, 37), (11, 36)]
+Valid neighbors after grid boundary check: [(12, 36), (13, 36), (13, 37), (11, 36)]
+Tip (ID: 4) at (12, 37) grew to (12, 36) with VEGF value: 0.017368528189859615
+Tip positions after growth:
+  Vessel ID 1: position (1, 31), VEGF value: 0.0117
+  Vessel ID 4: position (12, 36), VEGF value: 0.0165
+
+--- Step 140/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 31), VEGF value: 0.0117
+  Vessel ID 4: position (12, 36), VEGF value: 0.0165
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 31), VEGF value: 0.0117
+  Vessel ID 4: position (12, 36), VEGF value: 0.0165
+
+--- Step 141/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 31), VEGF value: 0.0117
+  Vessel ID 4: position (12, 36), VEGF value: 0.0165
+Growing vasculature...
+Previous position: (0, 31)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(1, 30), (1, 32), (0, 31), (0, 32), (0, 30)]
+Valid neighbors after grid boundary check: [(1, 30), (1, 32), (0, 32)]
+Tip (ID: 1) at (1, 31) grew to (1, 30) with VEGF value: 0.008688405254985479
+Previous position: (12, 37)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(12, 35), (13, 35), (13, 36), (11, 36), (11, 35)]
+Valid neighbors after grid boundary check: [(12, 35), (13, 36), (11, 36), (11, 35)]
+Tip (ID: 4) at (12, 36) grew to (11, 35) with VEGF value: 0.007976955723749195
+Tip positions after growth:
+  Vessel ID 1: position (1, 30), VEGF value: 0.0083
+  Vessel ID 4: position (11, 35), VEGF value: 0.0076
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_141.png
+
+--- Step 142/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 30), VEGF value: 0.0083
+  Vessel ID 4: position (11, 35), VEGF value: 0.0076
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 30), VEGF value: 0.0083
+  Vessel ID 4: position (11, 35), VEGF value: 0.0076
+
+--- Step 143/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 30), VEGF value: 0.0083
+  Vessel ID 4: position (11, 35), VEGF value: 0.0076
+Growing vasculature...
+Previous position: (1, 31)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(1, 29), (2, 29), (2, 30), (0, 30), (0, 29)]
+Valid neighbors after grid boundary check: [(1, 29), (2, 29), (2, 30)]
+Tip (ID: 1) at (1, 30) grew to (2, 30) with VEGF value: 0.016968304097164037
+Previous position: (12, 36)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(11, 36), (11, 34), (10, 35), (10, 36), (10, 34)]
+Valid neighbors after grid boundary check: [(11, 36), (11, 34), (10, 35), (10, 36)]
+Tip (ID: 4) at (11, 35) grew to (11, 34) with VEGF value: 0.021098343544101474
+Tip positions after growth:
+  Vessel ID 1: position (2, 30), VEGF value: 0.0161
+  Vessel ID 4: position (11, 34), VEGF value: 0.0200
+
+--- Step 144/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 30), VEGF value: 0.0161
+  Vessel ID 4: position (11, 34), VEGF value: 0.0200
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 30), VEGF value: 0.0161
+  Vessel ID 4: position (11, 34), VEGF value: 0.0200
+
+--- Step 145/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 30), VEGF value: 0.0161
+  Vessel ID 4: position (11, 34), VEGF value: 0.0200
+Growing vasculature...
+Previous position: (1, 30)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(2, 29), (2, 31), (1, 30), (1, 31), (1, 29)]
+Valid neighbors after grid boundary check: [(2, 29), (2, 31), (1, 29)]
+Tip (ID: 1) at (2, 30) grew to (2, 31) with VEGF value: 0.016135346920764716
+Previous position: (11, 35)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(11, 33), (12, 33), (12, 34), (10, 34), (10, 33)]
+Valid neighbors after grid boundary check: [(12, 33), (10, 33)]
+Tip (ID: 4) at (11, 34) grew to (12, 33) with VEGF value: 0.011720624438944826
+Tip positions after growth:
+  Vessel ID 1: position (2, 31), VEGF value: 0.0153
+  Vessel ID 4: position (12, 33), VEGF value: 0.0111
+
+--- Step 146/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 31), VEGF value: 0.0153
+  Vessel ID 4: position (12, 33), VEGF value: 0.0111
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 31), VEGF value: 0.0153
+  Vessel ID 4: position (12, 33), VEGF value: 0.0111
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_146.png
+
+--- Step 147/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 31), VEGF value: 0.0153
+  Vessel ID 4: position (12, 33), VEGF value: 0.0111
+Growing vasculature...
+Previous position: (2, 30)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(2, 32), (3, 32), (3, 31), (1, 31), (1, 32)]
+Valid neighbors after grid boundary check: [(2, 32), (3, 32), (3, 31), (1, 32)]
+Tip (ID: 1) at (2, 31) grew to (2, 32) with VEGF value: 0.015792497956843485
+Previous position: (11, 34)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(13, 33), (13, 34), (13, 32), (12, 34), (12, 32)]
+Valid neighbors after grid boundary check: [(13, 32), (12, 32)]
+Tip (ID: 4) at (12, 33) grew to (13, 32) with VEGF value: 0.014531850684900737
+Tip positions after growth:
+  Vessel ID 1: position (2, 32), VEGF value: 0.0150
+  Vessel ID 4: position (13, 32), VEGF value: 0.0138
+
+--- Step 148/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 32), VEGF value: 0.0150
+  Vessel ID 4: position (13, 32), VEGF value: 0.0138
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 32), VEGF value: 0.0150
+  Vessel ID 4: position (13, 32), VEGF value: 0.0138
+
+--- Step 149/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 32), VEGF value: 0.0150
+  Vessel ID 4: position (13, 32), VEGF value: 0.0138
+Growing vasculature...
+Previous position: (2, 31)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(2, 33), (3, 33), (3, 32), (1, 32), (1, 33)]
+Valid neighbors after grid boundary check: [(2, 33), (3, 33), (3, 32), (1, 32), (1, 33)]
+Tip (ID: 1) at (2, 32) grew to (1, 33) with VEGF value: 0.018723005130856785
+Previous position: (12, 33)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(14, 32), (14, 33), (14, 31), (13, 33), (13, 31)]
+Valid neighbors after grid boundary check: [(14, 32), (14, 33), (14, 31), (13, 31)]
+Tip (ID: 4) at (13, 32) grew to (14, 31) with VEGF value: 0.007645499151156578
+Tip positions after growth:
+  Vessel ID 1: position (1, 33), VEGF value: 0.0178
+  Vessel ID 4: position (14, 31), VEGF value: 0.0073
+
+--- Step 150/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 33), VEGF value: 0.0178
+  Vessel ID 4: position (14, 31), VEGF value: 0.0073
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 33), VEGF value: 0.0178
+  Vessel ID 4: position (14, 31), VEGF value: 0.0073
+
+--- Step 151/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 33), VEGF value: 0.0178
+  Vessel ID 4: position (14, 31), VEGF value: 0.0073
+Growing vasculature...
+Previous position: (2, 32)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(1, 34), (2, 34), (0, 33), (0, 34), (0, 32)]
+Valid neighbors after grid boundary check: [(1, 34), (2, 34), (0, 33), (0, 34), (0, 32)]
+Tip (ID: 1) at (1, 33) grew to (0, 33) with VEGF value: 0.01494112894325256
+Previous position: (13, 32)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(15, 31), (15, 32), (15, 30), (14, 32), (14, 30)]
+Valid neighbors after grid boundary check: [(15, 31), (15, 30), (14, 32), (14, 30)]
+Tip (ID: 4) at (14, 31) grew to (15, 31) with VEGF value: 0.013012240519625969
+Tip positions after growth:
+  Vessel ID 1: position (0, 33), VEGF value: 0.0142
+  Vessel ID 4: position (15, 31), VEGF value: 0.0124
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_151.png
+
+--- Step 152/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 33), VEGF value: 0.0142
+  Vessel ID 4: position (15, 31), VEGF value: 0.0124
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 33), VEGF value: 0.0142
+  Vessel ID 4: position (15, 31), VEGF value: 0.0124
+
+--- Step 153/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 33), VEGF value: 0.0142
+  Vessel ID 4: position (15, 31), VEGF value: 0.0124
+Growing vasculature...
+Previous position: (1, 33)
+Movement direction: dx=-1, dy=0
+Corrected forward-biased neighbors dy==0: [(0, 32), (0, 34), (-1, 33), (-1, 34), (-1, 32)]
+Valid neighbors after grid boundary check: [(0, 32), (0, 34)]
+Tip (ID: 1) at (0, 33) grew to (0, 34) with VEGF value: 0.0067521820265817045
+Previous position: (14, 31)
+Movement direction: dx=1, dy=0
+Corrected forward-biased neighbors dy==0: [(15, 30), (15, 32), (14, 31), (14, 32), (14, 30)]
+Valid neighbors after grid boundary check: [(15, 30), (14, 32), (14, 30)]
+Tip (ID: 4) at (15, 31) grew to (15, 30) with VEGF value: 0.009392109477826536
+Tip positions after growth:
+  Vessel ID 1: position (0, 34), VEGF value: 0.0064
+  Vessel ID 4: position (15, 30), VEGF value: 0.0089
+
+--- Step 154/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 34), VEGF value: 0.0064
+  Vessel ID 4: position (15, 30), VEGF value: 0.0089
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 4 at (15, 30) connecting to Vessel ID 1 at (14, 29)
+  Anastomosis between Tip 4 and Vessel 1
+Tip positions after growth:
+  Vessel ID 1: position (0, 34), VEGF value: 0.0064
+
+--- Step 155/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 34), VEGF value: 0.0064
+Growing vasculature...
+Previous position: (0, 33)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 35), (1, 35), (1, 34), (-1, 34), (-1, 35)]
+Valid neighbors after grid boundary check: [(0, 35), (1, 35), (1, 34)]
+Tip (ID: 1) at (0, 34) grew to (0, 35) with VEGF value: 0.018263825916326443
+Tip positions after growth:
+  Vessel ID 1: position (0, 35), VEGF value: 0.0174
+
+--- Step 156/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 35), VEGF value: 0.0174
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 35), VEGF value: 0.0174
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_156.png
+
+--- Step 157/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 35), VEGF value: 0.0174
+Growing vasculature...
+Previous position: (0, 34)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 36), (1, 36), (1, 35), (-1, 35), (-1, 36)]
+Valid neighbors after grid boundary check: [(0, 36), (1, 36), (1, 35)]
+Tip (ID: 1) at (0, 35) grew to (0, 36) with VEGF value: 0.014012771646669456
+Tip positions after growth:
+  Vessel ID 1: position (0, 36), VEGF value: 0.0133
+
+--- Step 158/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 36), VEGF value: 0.0133
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 36), VEGF value: 0.0133
+
+--- Step 159/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 36), VEGF value: 0.0133
+Growing vasculature...
+Previous position: (0, 35)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 37), (1, 37), (1, 36), (-1, 36), (-1, 37)]
+Valid neighbors after grid boundary check: [(0, 37), (1, 37), (1, 36)]
+Tip (ID: 1) at (0, 36) grew to (0, 37) with VEGF value: 0.008411858094006085
+Tip positions after growth:
+  Vessel ID 1: position (0, 37), VEGF value: 0.0080
+
+--- Step 160/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 37), VEGF value: 0.0080
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 37), VEGF value: 0.0080
+
+--- Step 161/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 37), VEGF value: 0.0080
+Growing vasculature...
+Previous position: (0, 36)
+Movement direction: dx=0, dy=1
+Corrected forward-biased neighbors dx==0: [(0, 38), (1, 38), (1, 37), (-1, 37), (-1, 38)]
+Valid neighbors after grid boundary check: [(0, 38), (1, 38), (1, 37)]
+Tip (ID: 1) at (0, 37) grew to (1, 38) with VEGF value: 0.016281637854099248
+Tip positions after growth:
+  Vessel ID 1: position (1, 38), VEGF value: 0.0155
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_161.png
+
+--- Step 162/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 38), VEGF value: 0.0155
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 38), VEGF value: 0.0155
+
+--- Step 163/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 38), VEGF value: 0.0155
+Growing vasculature...
+Previous position: (0, 37)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(2, 38), (2, 39), (2, 37), (1, 39), (1, 37)]
+Valid neighbors after grid boundary check: [(2, 38), (2, 39), (2, 37), (1, 39), (1, 37)]
+Tip (ID: 1) at (1, 38) grew to (2, 39) with VEGF value: 0.013324956175272372
+Tip positions after growth:
+  Vessel ID 1: position (2, 39), VEGF value: 0.0127
+
+--- Step 164/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 39), VEGF value: 0.0127
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 39), VEGF value: 0.0127
+
+--- Step 165/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 39), VEGF value: 0.0127
+Growing vasculature...
+Previous position: (1, 38)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(3, 39), (3, 40), (3, 38), (2, 40), (2, 38)]
+Valid neighbors after grid boundary check: [(3, 39), (3, 38), (2, 38)]
+Tip (ID: 1) at (2, 39) grew to (3, 38) with VEGF value: 0.0028170456211286817
+Tip positions after growth:
+  Vessel ID 1: position (3, 38), VEGF value: 0.0027
+
+--- Step 166/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 38), VEGF value: 0.0027
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 38), VEGF value: 0.0027
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_166.png
+
+--- Step 167/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 38), VEGF value: 0.0027
+Growing vasculature...
+Previous position: (2, 39)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(4, 38), (4, 39), (4, 37), (3, 39), (3, 37)]
+Valid neighbors after grid boundary check: [(4, 38), (4, 39), (4, 37), (3, 39), (3, 37)]
+Tip (ID: 1) at (3, 38) grew to (3, 37) with VEGF value: 0.012903540824536618
+Tip positions after growth:
+  Vessel ID 1: position (3, 37), VEGF value: 0.0123
+
+--- Step 168/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 37), VEGF value: 0.0123
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 37), VEGF value: 0.0123
+
+--- Step 169/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 37), VEGF value: 0.0123
+Growing vasculature...
+Previous position: (3, 38)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(3, 36), (4, 36), (4, 37), (2, 37), (2, 36)]
+Valid neighbors after grid boundary check: [(3, 36), (4, 36), (4, 37), (2, 37), (2, 36)]
+Tip (ID: 1) at (3, 37) grew to (2, 36) with VEGF value: 0.012984629207676585
+Tip positions after growth:
+  Vessel ID 1: position (2, 36), VEGF value: 0.0123
+
+--- Step 170/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 36), VEGF value: 0.0123
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 36), VEGF value: 0.0123
+
+--- Step 171/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 36), VEGF value: 0.0123
+Growing vasculature...
+Previous position: (3, 37)
+Movement direction: dx=-1, dy=-1
+Corrected forward-biased neighbors dy=-1, dx =-1: [(2, 37), (2, 35), (1, 36), (1, 37), (1, 35)]
+Valid neighbors after grid boundary check: [(2, 37), (2, 35), (1, 36), (1, 37), (1, 35)]
+Tip (ID: 1) at (2, 36) grew to (1, 37) with VEGF value: 0.006116329535180118
+Tip positions after growth:
+  Vessel ID 1: position (1, 37), VEGF value: 0.0058
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_171.png
+
+--- Step 172/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 37), VEGF value: 0.0058
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 37), VEGF value: 0.0058
+
+--- Step 173/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 37), VEGF value: 0.0058
+Growing vasculature...
+Previous position: (2, 36)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(1, 38), (2, 38), (0, 37), (0, 38), (0, 36)]
+Valid neighbors after grid boundary check: [(2, 38), (0, 38)]
+Tip (ID: 1) at (1, 37) grew to (0, 38) with VEGF value: 0.002014088630937607
+Tip positions after growth:
+  Vessel ID 1: position (0, 38), VEGF value: 0.0019
+
+--- Step 174/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 38), VEGF value: 0.0019
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (0, 38), VEGF value: 0.0019
+
+--- Step 175/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (0, 38), VEGF value: 0.0019
+Growing vasculature...
+Previous position: (1, 37)
+Movement direction: dx=-1, dy=1
+Corrected forward-biased neighbors dy=1, dx =-1, : [(0, 39), (1, 39), (-1, 38), (-1, 39), (-1, 37)]
+Valid neighbors after grid boundary check: [(0, 39), (1, 39)]
+Tip (ID: 1) at (0, 38) grew to (1, 39) with VEGF value: 0.0033394577520033685
+Tip positions after growth:
+  Vessel ID 1: position (1, 39), VEGF value: 0.0032
+
+--- Step 176/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 39), VEGF value: 0.0032
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (1, 39), VEGF value: 0.0032
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_176.png
+
+--- Step 177/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (1, 39), VEGF value: 0.0032
+Growing vasculature...
+Previous position: (0, 38)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(2, 39), (2, 40), (2, 38), (1, 40), (1, 38)]
+Valid neighbors after grid boundary check: [(2, 38)]
+Tip (ID: 1) at (1, 39) grew to (2, 38) with VEGF value: 0.0006337768136495346
+Tip positions after growth:
+  Vessel ID 1: position (2, 38), VEGF value: 0.0006
+
+--- Step 178/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 38), VEGF value: 0.0006
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 38), VEGF value: 0.0006
+
+--- Step 179/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 38), VEGF value: 0.0006
+Growing vasculature...
+Previous position: (1, 39)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(3, 38), (3, 39), (3, 37), (2, 39), (2, 37)]
+Valid neighbors after grid boundary check: [(3, 39), (2, 37)]
+Tip (ID: 1) at (2, 38) grew to (2, 37) with VEGF value: 0.004799328352819046
+Tip positions after growth:
+  Vessel ID 1: position (2, 37), VEGF value: 0.0046
+
+--- Step 180/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 37), VEGF value: 0.0046
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (2, 37), VEGF value: 0.0046
+
+--- Step 181/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (2, 37), VEGF value: 0.0046
+Growing vasculature...
+Previous position: (2, 38)
+Movement direction: dx=0, dy=-1
+Corrected forward-biased neighbors dx==0: [(2, 36), (3, 36), (3, 37), (1, 37), (1, 36)]
+Valid neighbors after grid boundary check: [(3, 36), (1, 36)]
+Tip (ID: 1) at (2, 37) grew to (3, 36) with VEGF value: 0.006383087842374985
+Tip positions after growth:
+  Vessel ID 1: position (3, 36), VEGF value: 0.0061
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_181.png
+
+--- Step 182/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 36), VEGF value: 0.0061
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (3, 36), VEGF value: 0.0061
+
+--- Step 183/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (3, 36), VEGF value: 0.0061
+Growing vasculature...
+Previous position: (2, 37)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(4, 36), (4, 37), (4, 35), (3, 37), (3, 35)]
+Valid neighbors after grid boundary check: [(4, 36), (4, 37), (4, 35), (3, 35)]
+Tip (ID: 1) at (3, 36) grew to (4, 37) with VEGF value: 0.007729303604251713
+Tip positions after growth:
+  Vessel ID 1: position (4, 37), VEGF value: 0.0073
+
+--- Step 184/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 37), VEGF value: 0.0073
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (4, 37), VEGF value: 0.0073
+
+--- Step 185/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (4, 37), VEGF value: 0.0073
+Growing vasculature...
+Previous position: (3, 36)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(5, 37), (5, 38), (5, 36), (4, 38), (4, 36)]
+Valid neighbors after grid boundary check: [(5, 37), (5, 38), (5, 36), (4, 38), (4, 36)]
+Tip (ID: 1) at (4, 37) grew to (5, 36) with VEGF value: 0.007965391740879442
+Tip positions after growth:
+  Vessel ID 1: position (5, 36), VEGF value: 0.0076
+
+--- Step 186/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (5, 36), VEGF value: 0.0076
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (5, 36), VEGF value: 0.0076
+Snapshot saved to /Users/nadiamehjabin/Desktop/sproj'24-'25/angio_model(workingversion)/angio_figures/DualGrid_Simulation_2025-04-09_14-46-40/step_186.png
+
+--- Step 187/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (5, 36), VEGF value: 0.0076
+Growing vasculature...
+Previous position: (4, 37)
+Movement direction: dx=1, dy=-1
+Corrected forward-biased neighbors dx=1, dy =-1: [(6, 36), (6, 37), (6, 35), (5, 37), (5, 35)]
+Valid neighbors after grid boundary check: [(6, 36), (6, 37), (6, 35), (5, 37), (5, 35)]
+Tip (ID: 1) at (5, 36) grew to (6, 37) with VEGF value: 0.003914302393287814
+Tip positions after growth:
+  Vessel ID 1: position (6, 37), VEGF value: 0.0037
+
+--- Step 188/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 37), VEGF value: 0.0037
+Checking anastomosis...
+Tip positions after growth:
+  Vessel ID 1: position (6, 37), VEGF value: 0.0037
+
+--- Step 189/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (6, 37), VEGF value: 0.0037
+Growing vasculature...
+Previous position: (5, 36)
+Movement direction: dx=1, dy=1
+Corrected forward-biased neighbors dx=1, dy =1: [(7, 37), (7, 38), (7, 36), (6, 38), (6, 36)]
+Valid neighbors after grid boundary check: [(7, 37), (7, 38), (7, 36), (6, 38), (6, 36)]
+Tip (ID: 1) at (6, 37) grew to (7, 36) with VEGF value: 0.00477030248853384
+Tip positions after growth:
+  Vessel ID 1: position (7, 36), VEGF value: 0.0045
+
+--- Step 190/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (7, 36), VEGF value: 0.0045
+Checking anastomosis...
+Tip-to-vessel anastomosis: Tip ID 1 at (7, 36) connecting to Vessel ID 4 at (8, 36)
+  Anastomosis between Tip 1 and Vessel 4
+Tip positions after growth:

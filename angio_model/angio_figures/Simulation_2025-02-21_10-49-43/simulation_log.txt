@@ -1,0 +1,93 @@
+Step 0: Growth phase
+Active tips before growth: 3
+Tip cells before growth: [(40, 30), (20, 14), (30, 33)]
+which old tip is running 0 (40, 30)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (39, 31)
+grown-vasculature--: [(39, 31)]
+Tip cells before growth: [(40, 30), (20, 14), (30, 33)]
+which old tip is running 1 (20, 14)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (21, 15)
+grown-vasculature--: [(39, 31), (21, 15)]
+Tip cells before growth: [(40, 30), (20, 14), (30, 33)]
+which old tip is running 2 (30, 33)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (29, 34)
+grown-vasculature--: [(39, 31), (21, 15), (29, 34)]
+Step 1: Anastomosis check phase
+Starting anastomosis check...
+in ananst func 0 (39, 31)
+checking if one tip cell is near another tip
+in ananst func 1 (21, 15)
+checking if one tip cell is near another tip
+in ananst func 2 (29, 34)
+checking if one tip cell is near another tip
+Updated vasculature positions: [(40, 30), (20, 14), (30, 33)]
+Remaining tip cells after anastomosis: [(39, 31), (21, 15), (29, 34)]
+Step 2: Growth phase
+Active tips before growth: 3
+Tip cells before growth: [(39, 31), (21, 15), (29, 34)]
+which old tip is running 0 (39, 31)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (38, 30)
+grown-vasculature--: [(38, 30)]
+Tip cells before growth: [(39, 31), (21, 15), (29, 34)]
+which old tip is running 1 (21, 15)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (21, 16)
+grown-vasculature--: [(38, 30), (21, 16)]
+Tip cells before growth: [(39, 31), (21, 15), (29, 34)]
+which old tip is running 2 (29, 34)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (28, 35)
+grown-vasculature--: [(38, 30), (21, 16), (28, 35)]
+Step 3: Anastomosis check phase
+Starting anastomosis check...
+in ananst func 0 (38, 30)
+checking if one tip cell is near another tip
+in ananst func 1 (21, 16)
+checking if one tip cell is near another tip
+in ananst func 2 (28, 35)
+checking if one tip cell is near another tip
+Updated vasculature positions: [(40, 30), (20, 14), (30, 33), (39, 31), (21, 15), (29, 34)]
+Remaining tip cells after anastomosis: [(38, 30), (21, 16), (28, 35)]

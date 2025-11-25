@@ -1,0 +1,6 @@
+Step 0: Growth phase
+Active tips before growth: 4
+Tip cells before growth: [(40, 30), (20, 14), (30, 33), (25, 25)]
+which old tip is running 0 (40, 30)
+what is prev dir: None
+LHS prev dir----> (1, 0)

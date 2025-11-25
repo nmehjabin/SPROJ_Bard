@@ -1,0 +1,4 @@
+group1	group2	meandiff	p-adj	lower	upper	reject
+Linear	Radial	5.2794	0.0	3.8633	6.6955	True
+Linear	Uniform	-7.0452	0.0	-8.4613	-5.629	True
+Radial	Uniform	-12.3246	0.0	-13.7407	-10.9085	True

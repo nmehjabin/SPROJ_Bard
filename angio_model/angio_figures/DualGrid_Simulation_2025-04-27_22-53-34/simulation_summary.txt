@@ -1,0 +1,18 @@
+Angiogenesis Simulation Summary
+===========================
+Date: 2025-04-27 22:54:33
+Grid Size: (50, 50)
+Total Steps: 200
+Initial Tip Count: 6
+Final Active Tip Count: 1
+Total Anastomosis Events: 2
+
+Vessel Summary:
+ID	Disp	Anastomosis	Status
+-------------------------------
+1	16.28	1	Anastomosed
+2	16.28	0	Active
+3	13.60	0	Inactive
+4	3.16	1	Anastomosed
+5	8.54	1	Anastomosed
+6	4.00	1	Anastomosed

@@ -1,0 +1,75 @@
+Step 0: Growth phase
+Active tips before growth: 3
+Tip cells before growth: [(4, 3), (2, 4), (3, 3)]
+which old tip is running 0 (4, 3)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (4, 2)
+grown-vasculature--: [(4, 2)]
+Tip cells before growth: [(4, 3), (2, 4), (3, 3)]
+which old tip is running 1 (2, 4)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (1, 4)
+grown-vasculature--: [(4, 2), (1, 4)]
+Tip cells before growth: [(4, 3), (2, 4), (3, 3)]
+which old tip is running 2 (3, 3)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (2, 2)
+grown-vasculature--: [(4, 2), (1, 4), (2, 2)]
+Step 1: Anastomosis check phase
+Starting anastomosis check...
+in ananst func 0 (4, 2)
+checking if one tip cell is near another tip
+in ananst func 1 (1, 4)
+checking if one tip cell is near another tip
+in ananst func 2 (2, 2)
+checking if one tip cell is near another tip
+Updated vasculature positions: [(4, 3), (2, 4), (3, 3)]
+Remaining tip cells after anastomosis: [(4, 2), (1, 4), (2, 2)]
+Step 2: Growth phase
+Active tips before growth: 3
+Tip cells before growth: [(4, 2), (1, 4), (2, 2)]
+which old tip is running 0 (4, 2)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (4, 1)
+grown-vasculature--: [(4, 1)]
+Tip cells before growth: [(4, 2), (1, 4), (2, 2)]
+which old tip is running 1 (1, 4)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (0, 3)
+grown-vasculature--: [(4, 1), (0, 3)]
+Tip cells before growth: [(4, 2), (1, 4), (2, 2)]
+which old tip is running 2 (2, 2)
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+checking boundary here for tip cells
+vegf neighbor---- (1, 1)
+grown-vasculature--: [(4, 1), (0, 3), (1, 1)]
+Step 3: Anastomosis check phase
+Starting anastomosis check...
+in ananst func 0 (4, 1)
+checking if one tip cell is near another tip
+in ananst func 1 (0, 3)
+checking if one tip cell is near another tip
+in ananst func 2 (1, 1)
+checking if one tip cell is near another tip
+Updated vasculature positions: [(4, 3), (2, 4), (3, 3), (4, 2), (1, 4), (2, 2)]
+Remaining tip cells after anastomosis: [(4, 1), (0, 3), (1, 1)]

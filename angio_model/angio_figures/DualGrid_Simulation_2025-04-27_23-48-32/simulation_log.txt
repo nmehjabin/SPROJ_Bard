@@ -1,0 +1,16 @@
+Simulation started at: 2025-04-27 23:48:32
+Grid size: (50, 50)
+Initial tip positions: [(15, 25), (35, 25), (25, 15), (25, 35), (20, 20), (30, 30)]
+Total steps: 200
+
+--- Step 1/200 ---
+Current tip positions before growth:
+  Vessel ID 1: position (15, 25), VEGF value: 0.5147
+  Vessel ID 2: position (35, 25), VEGF value: 0.6025
+  Vessel ID 3: position (25, 15), VEGF value: 0.3717
+  Vessel ID 4: position (25, 35), VEGF value: 0.4726
+  Vessel ID 5: position (20, 20), VEGF value: 0.5424
+  Vessel ID 6: position (30, 30), VEGF value: 0.6299
+Growing vasculature...
+First move: All 8 neighbors selected
+Valid neighbors after grid boundary check: [(16, 25), (14, 25), (15, 26), (15, 24), (16, 26), (14, 24), (16, 24), (14, 26)]
